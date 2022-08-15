@@ -1,10 +1,13 @@
 /* ---------------------------- PALETA DE COLORES --------------------------- */
+/* --------------------------------- FUENTES -------------------------------- */
 * {
   border: 0px;
   margin: 0px;
   box-sizing: border-box; }
 
+/* ------------------------------------ . ----------------------------------- */
 /* --------------------------------- HEADER --------------------------------- */
+/* ------------------------------------ . ----------------------------------- */
 .header {
   width: 100%;
   height: 150px;
@@ -12,7 +15,7 @@
   justify-content: space-between; }
 
 .titulopag {
-  margin-left: 30px;
+  margin-left: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -22,13 +25,42 @@
     list-style: none; }
 
 .tituloPagina {
-  color: #126f3c; }
+  color: blueviolet;
+  font-size: 60px; }
   .tituloPagina span {
-    color: blueviolet; }
+    color: #126f3c; }
 
 .barra {
-  width: 60%; }
+  flex: 1;
+  max-width: 600px; }
+  .barra .nav {
+    display: flex;
+    justify-content: space-around;
+    align-self: flex-end;
+    margin-top: 100px; }
+  .barra li a {
+    text-decoration: none;
+    list-style: none;
+    font-size: 20px; }
 
-.nav {
+.inicioSesionBoton {
   display: flex;
-  justify-content: space-around; }
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-right: 30px; }
+  .inicioSesionBoton a {
+    text-decoration: none;
+    list-style: none; }
+  .inicioSesionBoton :hover {
+    color: #c3e24c; }
+
+.inicioSesionBot {
+  font-size: 20px;
+  text-align: center;
+  color: #122c27; }
+
+/* ------------------------------------ . ----------------------------------- */
+/* ----------------------------------  MAIN ---------------------------------- */
+/* ------------------------------------ . ----------------------------------- */
+/* -------------------------------- NOTICIAS -------------------------------- */
