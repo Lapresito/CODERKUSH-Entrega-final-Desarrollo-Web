@@ -12,13 +12,14 @@
   width: 100%;
   height: 150px;
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  background-image: url(/images/Fondotot1.jpg); }
 
 .titulopag {
-  margin-left: 50px;
+  margin: 70px 0px 20px 50px;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
   text-align: center; }
   .titulopag a {
     text-decoration: none;
@@ -45,22 +46,65 @@
 
 .inicioSesionBoton {
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
   text-align: center;
-  margin-right: 30px; }
+  margin: 0px 30px 20px 0px; }
   .inicioSesionBoton a {
     text-decoration: none;
     list-style: none; }
   .inicioSesionBoton :hover {
-    color: #c3e24c; }
+    color: #6fa74c; }
 
 .inicioSesionBot {
   font-size: 20px;
   text-align: center;
-  color: #122c27; }
+  color: #c3e24c; }
 
 /* ------------------------------------ . ----------------------------------- */
-/* ----------------------------------  MAIN ---------------------------------- */
+/* --------------------------------- FOOTER --------------------------------- */
+/* ------------------------------------ . ----------------------------------- */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  background-image: url(/images/Fondotot1.jpg); }
+  .footer .contactoFooter {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 30px; }
+    .footer .contactoFooter a {
+      padding: 15px;
+      color: #c3e24c; }
+    .footer .contactoFooter :hover {
+      color: #6fa74c; }
+  .footer .subir {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .footer .subir a {
+      padding: 15px;
+      color: #c3e24c; }
+    .footer .subir :hover {
+      color: #6fa74c; }
+  .footer .redes {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: 30px; }
+    .footer .redes a {
+      padding: 15px;
+      color: #c3e24c; }
+    .footer .redes :hover {
+      color: #6fa74c; }
+
+/* ------------------------------------ . ----------------------------------- */
+/* ---------------------------------- INDEX --------------------------------- */
 /* ------------------------------------ . ----------------------------------- */
 /* -------------------------------- NOTICIAS -------------------------------- */
