@@ -6,6 +6,11 @@
     margin: 0px;
     box-sizing: border-box;
 }
+
+.body {
+    background-image: url(/images/Fondo2.jpg);
+}
+
 /* ------------------------------------ . ----------------------------------- */
 /* --------------------------------- HEADER --------------------------------- */
 /* ------------------------------------ . ----------------------------------- */
@@ -16,7 +21,7 @@
     justify-content: space-between;
     background-image: url(/images/Fondotot1.jpg);
 }
-
+// Titulo de la Pagina (CODERKUSH)
 .titulopag {
     margin: 70px 0px 20px 50px;
     display: flex;
@@ -33,29 +38,42 @@
 .tituloPagina {
     color: blueviolet;
     font-size: 60px;
+    font-family: $font1;
 
     span {
         color: $color3;
     }
 }
-
+// Barra de Navegacion
 .barra {
     flex: 1;
-    max-width: 600px;
+    max-width: 850px;
+
     .nav {
         display: flex;
         justify-content: space-around;
         align-self: flex-end;
         margin-top: 100px;
+        margin-right: 250px;
     }
 
-    li a {
-        text-decoration: none;
-        list-style: none;
-        font-size: 20px;
+    li {
+        list-style-type: none;
+
+        a {
+            text-decoration: none;
+            list-style: none;
+            font-size: 20px;
+            font-family: $font5;
+            color: $color5;
+        }
+
+        :hover {
+            color: $color4;
+        }
     }
 }
-
+// Boton de Inicio de Sesion
 .inicioSesionBoton {
     display: flex;
     align-items: flex-end;
@@ -66,6 +84,7 @@
     a {
         text-decoration: none;
         list-style: none;
+        font-family: $font5;
     }
 
     :hover {
@@ -83,54 +102,63 @@
 /* --------------------------------- FOOTER --------------------------------- */
 /* ------------------------------------ . ----------------------------------- */
 
-.footer{
+.footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
     height: 80px;
     background-image: url(/images/Fondotot1.jpg);
-    .contactoFooter{
+
+    .contactoFooter {
         flex: 1;
         display: flex;
         justify-content: flex-start;
         align-items: center;
         margin-right: 30px;
-         a{
+
+        a {
             padding: 15px;
             color: $color5;
-         }
-         :hover{
+        }
+
+        :hover {
             color: $color4;
-         }
-    
+        }
+
     }
-    .subir{
+
+    .subir {
         flex: 1;
         display: flex;
         justify-content: center;
         align-items: center;
-        a{
+
+        a {
             padding: 15px;
             color: $color5;
-         }
-         :hover{
+        }
+
+        :hover {
             color: $color4;
-         }
+        }
     }
-    .redes{
+
+    .redes {
         flex: 1;
         display: flex;
         justify-content: flex-end;
         align-items: center;
         margin-left: 30px;
-        a{
+
+        a {
             padding: 15px;
             color: $color5;
-         }
-         :hover{
+        }
+
+        :hover {
             color: $color4;
-         }
+        }
     }
 }
 
@@ -139,3 +167,57 @@
 /* ------------------------------------ . ----------------------------------- */
 
 /* -------------------------------- NOTICIAS -------------------------------- */
+
+// Cartel de NEWS
+.news {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h2 {
+        font-size: 40px;
+        font-family: $font6;
+        background-image: url(/images/fondotitulos.jpg);
+        color: $color2;
+    }
+
+    ul {
+        list-style: none;
+    }
+}
+// Contenido de Noticia 1 (txt, img)
+.new1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h3 {
+        font-family: $font4;
+        color: $color5;
+    }
+
+    img {
+        border: 5px solid transparent;
+        padding: 0px;
+        border-image: url(/images/fondoimgs.jpg) 30 round;
+    }
+    p {
+        width: 60%;
+        font-family: $font4;
+        color: $color5;
+    }
+    a {
+        list-style: none;
+        text-decoration: none;
+
+        .adjuntoNota {
+            width: 100%;
+
+            :hover {
+                color: $color4;
+            }
+        }
+    }
+}

@@ -5,6 +5,9 @@
   margin: 0px;
   box-sizing: border-box; }
 
+.body {
+  background-image: url(/images/Fondo2.jpg); }
+
 /* ------------------------------------ . ----------------------------------- */
 /* --------------------------------- HEADER --------------------------------- */
 /* ------------------------------------ . ----------------------------------- */
@@ -27,22 +30,30 @@
 
 .tituloPagina {
   color: blueviolet;
-  font-size: 60px; }
+  font-size: 60px;
+  font-family: "Rubik Moonrocks", cursive; }
   .tituloPagina span {
     color: #126f3c; }
 
 .barra {
   flex: 1;
-  max-width: 600px; }
+  max-width: 850px; }
   .barra .nav {
     display: flex;
     justify-content: space-around;
     align-self: flex-end;
-    margin-top: 100px; }
-  .barra li a {
-    text-decoration: none;
-    list-style: none;
-    font-size: 20px; }
+    margin-top: 100px;
+    margin-right: 250px; }
+  .barra li {
+    list-style-type: none; }
+    .barra li a {
+      text-decoration: none;
+      list-style: none;
+      font-size: 20px;
+      font-family: "Permanent Marker", cursive;
+      color: #c3e24c; }
+    .barra li :hover {
+      color: #6fa74c; }
 
 .inicioSesionBoton {
   display: flex;
@@ -52,7 +63,8 @@
   margin: 0px 30px 20px 0px; }
   .inicioSesionBoton a {
     text-decoration: none;
-    list-style: none; }
+    list-style: none;
+    font-family: "Permanent Marker", cursive; }
   .inicioSesionBoton :hover {
     color: #6fa74c; }
 
@@ -108,3 +120,39 @@
 /* ---------------------------------- INDEX --------------------------------- */
 /* ------------------------------------ . ----------------------------------- */
 /* -------------------------------- NOTICIAS -------------------------------- */
+.news {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .news h2 {
+    font-size: 40px;
+    font-family: "Bungee Inline", cursive;
+    background-image: url(/images/fondotitulos.jpg);
+    color: #124735; }
+  .news ul {
+    list-style: none; }
+
+.new1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .new1 h3 {
+    font-family: "Sanchez", serif;
+    color: #c3e24c; }
+  .new1 img {
+    border: 5px solid transparent;
+    padding: 0px;
+    border-image: url(/images/fondoimgs.jpg) 30 round; }
+  .new1 p {
+    width: 60%;
+    font-family: "Sanchez", serif;
+    color: #c3e24c; }
+  .new1 a {
+    list-style: none;
+    text-decoration: none; }
+    .new1 a .adjuntoNota {
+      width: 100%; }
+      .new1 a .adjuntoNota :hover {
+        color: #6fa74c; }
