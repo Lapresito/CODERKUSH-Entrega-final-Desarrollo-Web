@@ -271,11 +271,336 @@ a{
 /* ------------------------------------ . ----------------------------------- */
 /* ------------------------------- INFORMACION ------------------------------ */
 /* ------------------------------------ . ----------------------------------- */
+.info{
+    @include estructuraColCen;
+}
+// Marihuana que es?
+.mariqes{
+    @include estructuraColCen;
+    h2{
+        @include titulos;
+    }
+    .imagenesInfo1{
+        img{
+            @include imagenes;
+        }
+    }
+    p{
+        width: 80%;
+        font-family: $font4;
+        color: $color5;
+        background-color: #12473577;
+        border-radius: 5px;
+    }
+}
+// Historia
+.history{
+    @include estructuraColCen;
+    h2{
+        @include titulos;
+    }
+    img{
+        @include imagenes;
+    }
+    p{
+        width: 80%;
+        font-family: $font4;
+        color: $color5;
+        background-color: #12473577;
+        border-radius: 5px;
+    }
+}
+// Usos Medicinales y recreativos
+.usos{
+    @include estructuraColCen;
+    h2{
+        @include titulos;
+    }
+    img{
+        @include imagenes;
+    }
+    p{
+        width: 90%;
+        font-family: $font4;
+        color: $color5;
+        background-color: #12473577;
+        border-radius: 5px;
+    }
+}
 
-/* ---------------------------- MARIHUANA QUE ES? --------------------------- */
+/* ------------------------------------ . ----------------------------------- */
+/* --------------------------------- CULTIVO -------------------------------- */
+/* ------------------------------------ . ----------------------------------- */
+
+// Cultivo
+.cultiv{
+    @include estructuraColCen;
+    h2{
+        @include titulos;
+    }
+    img{
+        @include imagenes;
+    }
+    p{
+        width: 90%;
+        font-family: $font4;
+        color: $color5;
+        background-color: #12473577;
+        border-radius: 5px;
+    }
+}
+
+// Exterior
+.outdoor{
+    @include estructuraColCen;
+    h2{
+        @include titulos;
+    }
+    img{
+        @include imagenes;
+    }
+    p{
+        width: 90%;
+        font-family: $font4;
+        color: $color5;
+        background-color: #12473577;
+        border-radius: 5px;
+    }
+}
+// Interior
+.indoor{
+    @include estructuraColCen;
+    h2{
+        @include titulos;
+    }
+    img{
+        @include imagenes;
+    }
+    p{
+        width: 90%;
+        font-family: $font4;
+        color: $color5;
+        background-color: #12473577;
+        border-radius: 5px;
+    }
+}
+// Hidroponico
+.hidro{
+    @include estructuraColCen;
+    h2{
+        @include titulos;
+    }
+    img{
+        @include imagenes;
+    }
+    p{
+        width: 90%;
+        font-family: $font4;
+        color: $color5;
+        background-color: #12473577;
+        border-radius: 5px;
+    }
+}
 
 
-// Cartel Marihuana
+/* ------------------------------------ . ----------------------------------- */
+/* ------------------------------- VARIEDADES ------------------------------- */
+/* ------------------------------------ . ----------------------------------- */
 
+/* ------------------------------ HALL OF FAME ------------------------------ */
+.hall{
+    @include estructuraColCen;
+    h2{
+        @include titulos;
+    }
+    img{
+        @include imagenes;
+    }
+    p{
+        width: 90%;
+        font-family: $font4;
+        color: $color5;
+        background-color: #12473577;
+        border-radius: 5px;
+    }
+    ol{
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        li{
+            color: $color3;
+            padding: 10px;
+            font-family: $font3;
+            font-size: 30px;
+        }
+    }
+}
 
+/* --------------------------------- TOPS 10 -------------------------------- */
+.top10{
+    @include estructuraColCen;
+    h2{
+        @include titulos;
+    }
+    img{
+        @include imagenes;
+    }
+}
 
+// Top 10 sativas
+.sativas10{
+    @include estructuraColCen;
+    img{
+        @include imagenes;
+    }
+    h3{
+        @include subtitulos;
+    }
+    ol{
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        li{
+            color: $color3;
+            padding: 10px;
+            font-family: $font3;
+            font-size: 30px;
+        }
+    }
+}
+// Top 10 indicas
+.indicas10{
+    @include estructuraColCen;
+    img{
+        @include imagenes;
+    }
+    h3{
+        @include subtitulos;
+    }
+    ol{
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        li{
+            color: $color3;
+            padding: 10px;
+            font-family: $font3;
+            font-size: 30px;
+        }
+    }
+}
+// Top 10 hibridos
+.hibridos10{
+    @include estructuraColCen;
+    img{
+        @include imagenes;
+    }
+    h3{
+        @include subtitulos;
+    }
+    ol{
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        li{
+            color: $color3;
+            padding: 10px;
+            font-family: $font3;
+            font-size: 30px;
+        }
+    }
+}
+
+// Top 10 autoflorescientes
+.auto10{
+    @include estructuraColCen;
+    img{
+        @include imagenes;
+    }
+    h3{
+        @include subtitulos;
+    }
+    ol{
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        li{
+            color: $color3;
+            padding: 10px;
+            font-family: $font3;
+            font-size: 30px;
+        }
+    }
+}
+/* ------------------------------- VARIEDADES ------------------------------- */
+.variedades{
+    @include estructuraColCen;
+    h2{
+        @include titulos;
+    }
+}
+// Indicas
+.indicas{
+    @include estructuraColCen;
+    img{
+        @include imagenes;
+    }
+    h3{
+        @include subtitulos;
+    }
+    ul{
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        li{
+            color: $color3;
+            padding: 10px;
+            font-family: $font3;
+            font-size: 30px;
+        }
+    }
+}
+// Sativas
+.sativas{
+    @include estructuraColCen;
+    img{
+        @include imagenes;
+    }
+    h3{
+        @include subtitulos;
+    }
+    ul{
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        li{
+            color: $color3;
+            padding: 10px;
+            font-family: $font3;
+            font-size: 30px;
+        }
+    }
+}
+// Hibridas
+.hibri2{
+    @include estructuraColCen;
+    img{
+        @include imagenes;
+    }
+    h3{
+        @include subtitulos;
+    }
+    ul{
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        li{
+            display: flex;
+            justify-content: center;
+            color: $color3;
+            padding: 10px;
+            font-family: $font3;
+            font-size: 30px;
+        }
+    }
+}

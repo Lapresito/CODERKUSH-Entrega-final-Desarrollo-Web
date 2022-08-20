@@ -216,4 +216,426 @@
 /* ------------------------------------ . ----------------------------------- */
 /* ------------------------------- INFORMACION ------------------------------ */
 /* ------------------------------------ . ----------------------------------- */
-/* ---------------------------- MARIHUANA QUE ES? --------------------------- */
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.mariqes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .mariqes h2 {
+    font-size: 40px;
+    font-family: "Bungee Inline", cursive;
+    background-image: url(/images/fondotitulos.jpg);
+    color: #124735;
+    border-radius: 5px;
+    text-align: center; }
+  .mariqes .imagenesInfo1 img {
+    border: 5px solid transparent;
+    padding: 0px;
+    border-image: url(/images/fondoimgs.jpg) 30 round;
+    border-radius: 5px; }
+  .mariqes p {
+    width: 80%;
+    font-family: "Sanchez", serif;
+    color: #c3e24c;
+    background-color: #12473577;
+    border-radius: 5px; }
+
+.history {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .history h2 {
+    font-size: 40px;
+    font-family: "Bungee Inline", cursive;
+    background-image: url(/images/fondotitulos.jpg);
+    color: #124735;
+    border-radius: 5px;
+    text-align: center; }
+  .history img {
+    border: 5px solid transparent;
+    padding: 0px;
+    border-image: url(/images/fondoimgs.jpg) 30 round;
+    border-radius: 5px; }
+  .history p {
+    width: 80%;
+    font-family: "Sanchez", serif;
+    color: #c3e24c;
+    background-color: #12473577;
+    border-radius: 5px; }
+
+.usos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .usos h2 {
+    font-size: 40px;
+    font-family: "Bungee Inline", cursive;
+    background-image: url(/images/fondotitulos.jpg);
+    color: #124735;
+    border-radius: 5px;
+    text-align: center; }
+  .usos img {
+    border: 5px solid transparent;
+    padding: 0px;
+    border-image: url(/images/fondoimgs.jpg) 30 round;
+    border-radius: 5px; }
+  .usos p {
+    width: 90%;
+    font-family: "Sanchez", serif;
+    color: #c3e24c;
+    background-color: #12473577;
+    border-radius: 5px; }
+
+/* ------------------------------------ . ----------------------------------- */
+/* --------------------------------- CULTIVO -------------------------------- */
+/* ------------------------------------ . ----------------------------------- */
+.cultiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .cultiv h2 {
+    font-size: 40px;
+    font-family: "Bungee Inline", cursive;
+    background-image: url(/images/fondotitulos.jpg);
+    color: #124735;
+    border-radius: 5px;
+    text-align: center; }
+  .cultiv img {
+    border: 5px solid transparent;
+    padding: 0px;
+    border-image: url(/images/fondoimgs.jpg) 30 round;
+    border-radius: 5px; }
+  .cultiv p {
+    width: 90%;
+    font-family: "Sanchez", serif;
+    color: #c3e24c;
+    background-color: #12473577;
+    border-radius: 5px; }
+
+.outdoor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .outdoor h2 {
+    font-size: 40px;
+    font-family: "Bungee Inline", cursive;
+    background-image: url(/images/fondotitulos.jpg);
+    color: #124735;
+    border-radius: 5px;
+    text-align: center; }
+  .outdoor img {
+    border: 5px solid transparent;
+    padding: 0px;
+    border-image: url(/images/fondoimgs.jpg) 30 round;
+    border-radius: 5px; }
+  .outdoor p {
+    width: 90%;
+    font-family: "Sanchez", serif;
+    color: #c3e24c;
+    background-color: #12473577;
+    border-radius: 5px; }
+
+.indoor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .indoor h2 {
+    font-size: 40px;
+    font-family: "Bungee Inline", cursive;
+    background-image: url(/images/fondotitulos.jpg);
+    color: #124735;
+    border-radius: 5px;
+    text-align: center; }
+  .indoor img {
+    border: 5px solid transparent;
+    padding: 0px;
+    border-image: url(/images/fondoimgs.jpg) 30 round;
+    border-radius: 5px; }
+  .indoor p {
+    width: 90%;
+    font-family: "Sanchez", serif;
+    color: #c3e24c;
+    background-color: #12473577;
+    border-radius: 5px; }
+
+.hidro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .hidro h2 {
+    font-size: 40px;
+    font-family: "Bungee Inline", cursive;
+    background-image: url(/images/fondotitulos.jpg);
+    color: #124735;
+    border-radius: 5px;
+    text-align: center; }
+  .hidro img {
+    border: 5px solid transparent;
+    padding: 0px;
+    border-image: url(/images/fondoimgs.jpg) 30 round;
+    border-radius: 5px; }
+  .hidro p {
+    width: 90%;
+    font-family: "Sanchez", serif;
+    color: #c3e24c;
+    background-color: #12473577;
+    border-radius: 5px; }
+
+/* ------------------------------------ . ----------------------------------- */
+/* ------------------------------- VARIEDADES ------------------------------- */
+/* ------------------------------------ . ----------------------------------- */
+/* ------------------------------ HALL OF FAME ------------------------------ */
+.hall {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .hall h2 {
+    font-size: 40px;
+    font-family: "Bungee Inline", cursive;
+    background-image: url(/images/fondotitulos.jpg);
+    color: #124735;
+    border-radius: 5px;
+    text-align: center; }
+  .hall img {
+    border: 5px solid transparent;
+    padding: 0px;
+    border-image: url(/images/fondoimgs.jpg) 30 round;
+    border-radius: 5px; }
+  .hall p {
+    width: 90%;
+    font-family: "Sanchez", serif;
+    color: #c3e24c;
+    background-color: #12473577;
+    border-radius: 5px; }
+  .hall ol {
+    list-style: none;
+    display: flex;
+    justify-content: center; }
+    .hall ol li {
+      color: #126f3c;
+      padding: 10px;
+      font-family: "Aclonica", sans-serif;
+      font-size: 30px; }
+
+/* --------------------------------- TOPS 10 -------------------------------- */
+.top10 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .top10 h2 {
+    font-size: 40px;
+    font-family: "Bungee Inline", cursive;
+    background-image: url(/images/fondotitulos.jpg);
+    color: #124735;
+    border-radius: 5px;
+    text-align: center; }
+  .top10 img {
+    border: 5px solid transparent;
+    padding: 0px;
+    border-image: url(/images/fondoimgs.jpg) 30 round;
+    border-radius: 5px; }
+
+.sativas10 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .sativas10 img {
+    border: 5px solid transparent;
+    padding: 0px;
+    border-image: url(/images/fondoimgs.jpg) 30 round;
+    border-radius: 5px; }
+  .sativas10 h3 {
+    text-align: center;
+    font-family: "Sanchez", serif;
+    color: #c3e24c;
+    font-size: 35px; }
+  .sativas10 ol {
+    list-style: none;
+    display: flex;
+    justify-content: center; }
+    .sativas10 ol li {
+      color: #126f3c;
+      padding: 10px;
+      font-family: "Aclonica", sans-serif;
+      font-size: 30px; }
+
+.indicas10 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .indicas10 img {
+    border: 5px solid transparent;
+    padding: 0px;
+    border-image: url(/images/fondoimgs.jpg) 30 round;
+    border-radius: 5px; }
+  .indicas10 h3 {
+    text-align: center;
+    font-family: "Sanchez", serif;
+    color: #c3e24c;
+    font-size: 35px; }
+  .indicas10 ol {
+    list-style: none;
+    display: flex;
+    justify-content: center; }
+    .indicas10 ol li {
+      color: #126f3c;
+      padding: 10px;
+      font-family: "Aclonica", sans-serif;
+      font-size: 30px; }
+
+.hibridos10 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .hibridos10 img {
+    border: 5px solid transparent;
+    padding: 0px;
+    border-image: url(/images/fondoimgs.jpg) 30 round;
+    border-radius: 5px; }
+  .hibridos10 h3 {
+    text-align: center;
+    font-family: "Sanchez", serif;
+    color: #c3e24c;
+    font-size: 35px; }
+  .hibridos10 ol {
+    list-style: none;
+    display: flex;
+    justify-content: center; }
+    .hibridos10 ol li {
+      color: #126f3c;
+      padding: 10px;
+      font-family: "Aclonica", sans-serif;
+      font-size: 30px; }
+
+.auto10 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .auto10 img {
+    border: 5px solid transparent;
+    padding: 0px;
+    border-image: url(/images/fondoimgs.jpg) 30 round;
+    border-radius: 5px; }
+  .auto10 h3 {
+    text-align: center;
+    font-family: "Sanchez", serif;
+    color: #c3e24c;
+    font-size: 35px; }
+  .auto10 ol {
+    list-style: none;
+    display: flex;
+    justify-content: center; }
+    .auto10 ol li {
+      color: #126f3c;
+      padding: 10px;
+      font-family: "Aclonica", sans-serif;
+      font-size: 30px; }
+
+/* ------------------------------- VARIEDADES ------------------------------- */
+.variedades {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .variedades h2 {
+    font-size: 40px;
+    font-family: "Bungee Inline", cursive;
+    background-image: url(/images/fondotitulos.jpg);
+    color: #124735;
+    border-radius: 5px;
+    text-align: center; }
+
+.indicas {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .indicas img {
+    border: 5px solid transparent;
+    padding: 0px;
+    border-image: url(/images/fondoimgs.jpg) 30 round;
+    border-radius: 5px; }
+  .indicas h3 {
+    text-align: center;
+    font-family: "Sanchez", serif;
+    color: #c3e24c;
+    font-size: 35px; }
+  .indicas ul {
+    list-style: none;
+    display: flex;
+    justify-content: center; }
+    .indicas ul li {
+      color: #126f3c;
+      padding: 10px;
+      font-family: "Aclonica", sans-serif;
+      font-size: 30px; }
+
+.sativas {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .sativas img {
+    border: 5px solid transparent;
+    padding: 0px;
+    border-image: url(/images/fondoimgs.jpg) 30 round;
+    border-radius: 5px; }
+  .sativas h3 {
+    text-align: center;
+    font-family: "Sanchez", serif;
+    color: #c3e24c;
+    font-size: 35px; }
+  .sativas ul {
+    list-style: none;
+    display: flex;
+    justify-content: center; }
+    .sativas ul li {
+      color: #126f3c;
+      padding: 10px;
+      font-family: "Aclonica", sans-serif;
+      font-size: 30px; }
+
+.hibri2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .hibri2 img {
+    border: 5px solid transparent;
+    padding: 0px;
+    border-image: url(/images/fondoimgs.jpg) 30 round;
+    border-radius: 5px; }
+  .hibri2 h3 {
+    text-align: center;
+    font-family: "Sanchez", serif;
+    color: #c3e24c;
+    font-size: 35px; }
+  .hibri2 ul {
+    list-style: none;
+    display: flex;
+    justify-content: center; }
+    .hibri2 ul li {
+      display: flex;
+      justify-content: center;
+      color: #126f3c;
+      padding: 10px;
+      font-family: "Aclonica", sans-serif;
+      font-size: 30px; }
