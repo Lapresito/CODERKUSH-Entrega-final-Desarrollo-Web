@@ -140,19 +140,45 @@
   align-items: center; }
   .new1 h3 {
     font-family: "Sanchez", serif;
-    color: #c3e24c; }
+    color: #c3e24c;
+    font-size: 35px; }
   .new1 img {
     border: 5px solid transparent;
     padding: 0px;
     border-image: url(/images/fondoimgs.jpg) 30 round; }
+  .new1 .adjuntoNota {
+    width: 60%;
+    font-family: "Sanchez", serif;
+    color: #c3e24c;
+    background-color: #124735ce;
+    font-size: 20px;
+    border: solid 3px #126f3c;
+    border-radius: 5px; }
   .new1 p {
     width: 60%;
     font-family: "Sanchez", serif;
-    color: #c3e24c; }
+    color: #c3e24c;
+    background-color: #12473577;
+    border-radius: 5px; }
   .new1 a {
     list-style: none;
-    text-decoration: none; }
-    .new1 a .adjuntoNota {
-      width: 100%; }
-      .new1 a .adjuntoNota :hover {
-        color: #6fa74c; }
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; }
+
+.new2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .new2 h3 {
+    font-family: "Sanchez", serif;
+    color: #c3e24c;
+    font-size: 35px; }
+  .new2 p {
+    width: 60%;
+    font-family: "Sanchez", serif;
+    color: #c3e24c;
+    background-color: #12473577; }

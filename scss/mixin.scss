@@ -4,3 +4,9 @@
     background-image: url(/images/fondotitulos.jpg);
     color: $color2;
 }
+@mixin estructuraColCen{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
