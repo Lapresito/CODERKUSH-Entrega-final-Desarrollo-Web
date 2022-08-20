@@ -3,10 +3,24 @@
     font-family: $font6;
     background-image: url(/images/fondotitulos.jpg);
     color: $color2;
+    border-radius: 5px;
+    text-align: center;
 }
 @mixin estructuraColCen{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+@mixin subtitulos{
+    text-align: center;
+    font-family: $font4;
+    color: $color5;
+    font-size: 35px;
+}
+@mixin imagenes{
+    border: 5px solid transparent;
+    padding: 0px;
+    border-image: url(/images/fondoimgs.jpg) 30 round;
+    border-radius: 5px;
 }

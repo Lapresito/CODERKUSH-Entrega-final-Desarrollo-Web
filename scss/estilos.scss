@@ -176,10 +176,7 @@
     @include estructuraColCen;
 
     h2 {
-        font-size: 40px;
-        font-family: $font6;
-        background-image: url(/images/fondotitulos.jpg);
-        color: $color2;
+        @include titulos;
     }
 
     ul {
@@ -192,15 +189,11 @@
     @include estructuraColCen;
 
     h3 {
-        font-family: $font4;
-        color: $color5;
-        font-size: 35px;
+        @include subtitulos;
     }
 
     img {
-        border: 5px solid transparent;
-        padding: 0px;
-        border-image: url(/images/fondoimgs.jpg) 30 round;
+        @include imagenes;
     }
 
     .adjuntoNota {
@@ -241,13 +234,48 @@
         color: $color5;
         font-size: 35px;
     }
-
+a{
+    text-decoration: none;
     p {
-        width: 60%;
+        width: 100%;
         font-family: $font4;
         color: $color5;
         background-color: #12473577;
+        border: solid 3px $color3;
+        border-radius: 5px;
     }
-
 }
+}
+/* ----------------------- ALGUNOS VIDEOS INTERESANTES ---------------------- */
 // Cartel de Algunos...
+.algunosVideosInteresantes{
+    @include estructuraColCen;
+    h2 {
+        @include titulos;
+    }
+    ul {
+        list-style: none;
+    }
+}
+// Video 1
+.videosInteresantes{
+    ul{
+        li{
+            h3{
+                @include subtitulos;
+            }
+        }
+    }
+}
+
+/* ------------------------------------ . ----------------------------------- */
+/* ------------------------------- INFORMACION ------------------------------ */
+/* ------------------------------------ . ----------------------------------- */
+
+/* ---------------------------- MARIHUANA QUE ES? --------------------------- */
+
+
+// Cartel Marihuana
+
+
+
