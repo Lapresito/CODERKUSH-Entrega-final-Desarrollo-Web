@@ -1,12 +1,49 @@
 /* ---------------------------- PALETA DE COLORES --------------------------- */
 /* --------------------------------- FUENTES -------------------------------- */
-* {
-  border: 0px;
-  margin: 0px;
-  box-sizing: border-box; }
+/* ------------------------------------ . ----------------------------------- */
+/* --------------------------------- FOOTER --------------------------------- */
+/* ------------------------------------ . ----------------------------------- */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  background-image: url(/images/Fondotot1.jpg); }
+  .footer .contactoFooter {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; }
+    .footer .contactoFooter a {
+      color: #c3e24c; }
+    .footer .contactoFooter :hover {
+      color: #6fa74c; }
+  .footer .subir {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .footer .subir a {
+      color: #c3e24c; }
+    .footer .subir :hover {
+      color: #6fa74c; }
+  .footer .redes {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; }
+    .footer .redes a {
+      color: #c3e24c; }
+    .footer .redes :hover {
+      color: #6fa74c; }
 
-.body {
-  background-image: url(/images/Fondo2.jpg); }
+@media (min-width: 0px) and (max-width: 480px) {
+  .body {
+    min-width: 0px;
+    max-width: 480px;
+    margin: 0px;
+    border: 0px; } }
 
 /* ------------------------------------ . ----------------------------------- */
 /* --------------------------------- HEADER --------------------------------- */
@@ -19,7 +56,82 @@
   background-image: url(/images/Fondotot1.jpg); }
 
 .titulopag {
-  margin: 70px 0px 20px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center; }
+  .titulopag a {
+    text-decoration: none;
+    list-style: none; }
+
+.tituloPagina {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: blueviolet;
+  font-family: "Rubik Moonrocks", cursive;
+  margin-left: 30px; }
+  .tituloPagina span {
+    color: #126f3c; }
+
+.barra {
+  display: none;
+  flex: 1; }
+  .barra .nav {
+    display: flex;
+    justify-content: space-around;
+    align-self: flex-end; }
+  .barra li {
+    list-style-type: none; }
+    .barra li a {
+      text-decoration: none;
+      list-style: none;
+      font-family: "Permanent Marker", cursive;
+      color: #c3e24c; }
+    .barra li :hover {
+      color: #6fa74c; }
+
+.inicioSesionBoton {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: center;
+  margin-right: 10px; }
+  .inicioSesionBoton a {
+    text-decoration: none;
+    list-style: none;
+    font-family: "Permanent Marker", cursive; }
+  .inicioSesionBoton :hover {
+    color: #6fa74c; }
+
+.inicioSesionBot {
+  text-align: center;
+  color: #c3e24c;
+  font-size: 1rem; }
+
+* {
+  border: 0px;
+  margin: 0px;
+  box-sizing: border-box; }
+
+.body {
+  background-image: url(/images/Fondo2.jpg);
+  height: 100%; }
+
+/* ------------------------------------ . ----------------------------------- */
+/* --------------------------------- HEADER --------------------------------- */
+/* ------------------------------------ . ----------------------------------- */
+.header {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  background-image: url(/images/Fondotot1.jpg); }
+
+.titulopag {
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -30,26 +142,21 @@
 
 .tituloPagina {
   color: blueviolet;
-  font-size: 60px;
   font-family: "Rubik Moonrocks", cursive; }
   .tituloPagina span {
     color: #126f3c; }
 
 .barra {
-  flex: 1;
-  max-width: 850px; }
+  flex: 1; }
   .barra .nav {
     display: flex;
     justify-content: space-around;
-    align-self: flex-end;
-    margin-top: 100px;
-    margin-right: 250px; }
+    align-self: flex-end; }
   .barra li {
     list-style-type: none; }
     .barra li a {
       text-decoration: none;
       list-style: none;
-      font-size: 20px;
       font-family: "Permanent Marker", cursive;
       color: #c3e24c; }
     .barra li :hover {
@@ -59,8 +166,7 @@
   display: flex;
   align-items: flex-end;
   justify-content: center;
-  text-align: center;
-  margin: 0px 30px 20px 0px; }
+  text-align: center; }
   .inicioSesionBoton a {
     text-decoration: none;
     list-style: none;
@@ -69,7 +175,6 @@
     color: #6fa74c; }
 
 .inicioSesionBot {
-  font-size: 20px;
   text-align: center;
   color: #c3e24c; }
 
@@ -87,10 +192,8 @@
     flex: 1;
     display: flex;
     justify-content: flex-start;
-    align-items: center;
-    margin-right: 30px; }
+    align-items: center; }
     .footer .contactoFooter a {
-      padding: 15px;
       color: #c3e24c; }
     .footer .contactoFooter :hover {
       color: #6fa74c; }
@@ -100,7 +203,6 @@
     justify-content: center;
     align-items: center; }
     .footer .subir a {
-      padding: 15px;
       color: #c3e24c; }
     .footer .subir :hover {
       color: #6fa74c; }
@@ -108,10 +210,8 @@
     flex: 1;
     display: flex;
     justify-content: flex-end;
-    align-items: center;
-    margin-left: 30px; }
+    align-items: center; }
     .footer .redes a {
-      padding: 15px;
       color: #c3e24c; }
     .footer .redes :hover {
       color: #6fa74c; }
@@ -126,7 +226,6 @@
   justify-content: center;
   align-items: center; }
   .news h2 {
-    font-size: 40px;
     font-family: "Bungee Inline", cursive;
     background-image: url(/images/fondotitulos.jpg);
     color: #124735;
@@ -143,11 +242,9 @@
   .new1 h3 {
     text-align: center;
     font-family: "Sanchez", serif;
-    color: #c3e24c;
-    font-size: 35px; }
+    color: #c3e24c; }
   .new1 img {
     border: 5px solid transparent;
-    padding: 0px;
     border-image: url(/images/fondoimgs.jpg) 30 round;
     border-radius: 5px; }
   .new1 .adjuntoNota {
@@ -155,7 +252,6 @@
     font-family: "Sanchez", serif;
     color: #c3e24c;
     background-color: #124735ce;
-    font-size: 20px;
     border: solid 3px #126f3c;
     border-radius: 5px; }
   .new1 p {
@@ -179,8 +275,7 @@
   align-items: center; }
   .new2 h3 {
     font-family: "Sanchez", serif;
-    color: #c3e24c;
-    font-size: 35px; }
+    color: #c3e24c; }
   .new2 a {
     text-decoration: none; }
     .new2 a p {
@@ -198,7 +293,6 @@
   justify-content: center;
   align-items: center; }
   .algunosVideosInteresantes h2 {
-    font-size: 40px;
     font-family: "Bungee Inline", cursive;
     background-image: url(/images/fondotitulos.jpg);
     color: #124735;
@@ -210,8 +304,7 @@
 .videosInteresantes ul li h3 {
   text-align: center;
   font-family: "Sanchez", serif;
-  color: #c3e24c;
-  font-size: 35px; }
+  color: #c3e24c; }
 
 /* ------------------------------------ . ----------------------------------- */
 /* ------------------------------- INFORMACION ------------------------------ */
@@ -228,7 +321,6 @@
   justify-content: center;
   align-items: center; }
   .mariqes h2 {
-    font-size: 40px;
     font-family: "Bungee Inline", cursive;
     background-image: url(/images/fondotitulos.jpg);
     color: #124735;
@@ -236,7 +328,6 @@
     text-align: center; }
   .mariqes .imagenesInfo1 img {
     border: 5px solid transparent;
-    padding: 0px;
     border-image: url(/images/fondoimgs.jpg) 30 round;
     border-radius: 5px; }
   .mariqes p {
@@ -252,7 +343,6 @@
   justify-content: center;
   align-items: center; }
   .history h2 {
-    font-size: 40px;
     font-family: "Bungee Inline", cursive;
     background-image: url(/images/fondotitulos.jpg);
     color: #124735;
@@ -260,7 +350,6 @@
     text-align: center; }
   .history img {
     border: 5px solid transparent;
-    padding: 0px;
     border-image: url(/images/fondoimgs.jpg) 30 round;
     border-radius: 5px; }
   .history p {
@@ -276,7 +365,6 @@
   justify-content: center;
   align-items: center; }
   .usos h2 {
-    font-size: 40px;
     font-family: "Bungee Inline", cursive;
     background-image: url(/images/fondotitulos.jpg);
     color: #124735;
@@ -284,7 +372,6 @@
     text-align: center; }
   .usos img {
     border: 5px solid transparent;
-    padding: 0px;
     border-image: url(/images/fondoimgs.jpg) 30 round;
     border-radius: 5px; }
   .usos p {
@@ -303,7 +390,6 @@
   justify-content: center;
   align-items: center; }
   .cultiv h2 {
-    font-size: 40px;
     font-family: "Bungee Inline", cursive;
     background-image: url(/images/fondotitulos.jpg);
     color: #124735;
@@ -311,7 +397,6 @@
     text-align: center; }
   .cultiv img {
     border: 5px solid transparent;
-    padding: 0px;
     border-image: url(/images/fondoimgs.jpg) 30 round;
     border-radius: 5px; }
   .cultiv p {
@@ -327,7 +412,6 @@
   justify-content: center;
   align-items: center; }
   .outdoor h2 {
-    font-size: 40px;
     font-family: "Bungee Inline", cursive;
     background-image: url(/images/fondotitulos.jpg);
     color: #124735;
@@ -335,7 +419,6 @@
     text-align: center; }
   .outdoor img {
     border: 5px solid transparent;
-    padding: 0px;
     border-image: url(/images/fondoimgs.jpg) 30 round;
     border-radius: 5px; }
   .outdoor p {
@@ -351,7 +434,6 @@
   justify-content: center;
   align-items: center; }
   .indoor h2 {
-    font-size: 40px;
     font-family: "Bungee Inline", cursive;
     background-image: url(/images/fondotitulos.jpg);
     color: #124735;
@@ -359,7 +441,6 @@
     text-align: center; }
   .indoor img {
     border: 5px solid transparent;
-    padding: 0px;
     border-image: url(/images/fondoimgs.jpg) 30 round;
     border-radius: 5px; }
   .indoor p {
@@ -375,7 +456,6 @@
   justify-content: center;
   align-items: center; }
   .hidro h2 {
-    font-size: 40px;
     font-family: "Bungee Inline", cursive;
     background-image: url(/images/fondotitulos.jpg);
     color: #124735;
@@ -383,7 +463,6 @@
     text-align: center; }
   .hidro img {
     border: 5px solid transparent;
-    padding: 0px;
     border-image: url(/images/fondoimgs.jpg) 30 round;
     border-radius: 5px; }
   .hidro p {
@@ -403,7 +482,6 @@
   justify-content: center;
   align-items: center; }
   .hall h2 {
-    font-size: 40px;
     font-family: "Bungee Inline", cursive;
     background-image: url(/images/fondotitulos.jpg);
     color: #124735;
@@ -411,7 +489,6 @@
     text-align: center; }
   .hall img {
     border: 5px solid transparent;
-    padding: 0px;
     border-image: url(/images/fondoimgs.jpg) 30 round;
     border-radius: 5px; }
   .hall p {
@@ -426,9 +503,7 @@
     justify-content: center; }
     .hall ol li {
       color: #126f3c;
-      padding: 10px;
-      font-family: "Aclonica", sans-serif;
-      font-size: 30px; }
+      font-family: "Aclonica", sans-serif; }
 
 /* --------------------------------- TOPS 10 -------------------------------- */
 .top10 {
@@ -437,7 +512,6 @@
   justify-content: center;
   align-items: center; }
   .top10 h2 {
-    font-size: 40px;
     font-family: "Bungee Inline", cursive;
     background-image: url(/images/fondotitulos.jpg);
     color: #124735;
@@ -445,7 +519,6 @@
     text-align: center; }
   .top10 img {
     border: 5px solid transparent;
-    padding: 0px;
     border-image: url(/images/fondoimgs.jpg) 30 round;
     border-radius: 5px; }
 
@@ -456,23 +529,19 @@
   align-items: center; }
   .sativas10 img {
     border: 5px solid transparent;
-    padding: 0px;
     border-image: url(/images/fondoimgs.jpg) 30 round;
     border-radius: 5px; }
   .sativas10 h3 {
     text-align: center;
     font-family: "Sanchez", serif;
-    color: #c3e24c;
-    font-size: 35px; }
+    color: #c3e24c; }
   .sativas10 ol {
     list-style: none;
     display: flex;
     justify-content: center; }
     .sativas10 ol li {
       color: #126f3c;
-      padding: 10px;
-      font-family: "Aclonica", sans-serif;
-      font-size: 30px; }
+      font-family: "Aclonica", sans-serif; }
 
 .indicas10 {
   display: flex;
@@ -481,23 +550,19 @@
   align-items: center; }
   .indicas10 img {
     border: 5px solid transparent;
-    padding: 0px;
     border-image: url(/images/fondoimgs.jpg) 30 round;
     border-radius: 5px; }
   .indicas10 h3 {
     text-align: center;
     font-family: "Sanchez", serif;
-    color: #c3e24c;
-    font-size: 35px; }
+    color: #c3e24c; }
   .indicas10 ol {
     list-style: none;
     display: flex;
     justify-content: center; }
     .indicas10 ol li {
       color: #126f3c;
-      padding: 10px;
-      font-family: "Aclonica", sans-serif;
-      font-size: 30px; }
+      font-family: "Aclonica", sans-serif; }
 
 .hibridos10 {
   display: flex;
@@ -506,23 +571,19 @@
   align-items: center; }
   .hibridos10 img {
     border: 5px solid transparent;
-    padding: 0px;
     border-image: url(/images/fondoimgs.jpg) 30 round;
     border-radius: 5px; }
   .hibridos10 h3 {
     text-align: center;
     font-family: "Sanchez", serif;
-    color: #c3e24c;
-    font-size: 35px; }
+    color: #c3e24c; }
   .hibridos10 ol {
     list-style: none;
     display: flex;
     justify-content: center; }
     .hibridos10 ol li {
       color: #126f3c;
-      padding: 10px;
-      font-family: "Aclonica", sans-serif;
-      font-size: 30px; }
+      font-family: "Aclonica", sans-serif; }
 
 .auto10 {
   display: flex;
@@ -531,23 +592,19 @@
   align-items: center; }
   .auto10 img {
     border: 5px solid transparent;
-    padding: 0px;
     border-image: url(/images/fondoimgs.jpg) 30 round;
     border-radius: 5px; }
   .auto10 h3 {
     text-align: center;
     font-family: "Sanchez", serif;
-    color: #c3e24c;
-    font-size: 35px; }
+    color: #c3e24c; }
   .auto10 ol {
     list-style: none;
     display: flex;
     justify-content: center; }
     .auto10 ol li {
       color: #126f3c;
-      padding: 10px;
-      font-family: "Aclonica", sans-serif;
-      font-size: 30px; }
+      font-family: "Aclonica", sans-serif; }
 
 /* ------------------------------- VARIEDADES ------------------------------- */
 .variedades {
@@ -556,7 +613,6 @@
   justify-content: center;
   align-items: center; }
   .variedades h2 {
-    font-size: 40px;
     font-family: "Bungee Inline", cursive;
     background-image: url(/images/fondotitulos.jpg);
     color: #124735;
@@ -570,23 +626,19 @@
   align-items: center; }
   .indicas img {
     border: 5px solid transparent;
-    padding: 0px;
     border-image: url(/images/fondoimgs.jpg) 30 round;
     border-radius: 5px; }
   .indicas h3 {
     text-align: center;
     font-family: "Sanchez", serif;
-    color: #c3e24c;
-    font-size: 35px; }
+    color: #c3e24c; }
   .indicas ul {
     list-style: none;
     display: flex;
     justify-content: center; }
     .indicas ul li {
       color: #126f3c;
-      padding: 10px;
-      font-family: "Aclonica", sans-serif;
-      font-size: 30px; }
+      font-family: "Aclonica", sans-serif; }
 
 .sativas {
   display: flex;
@@ -595,23 +647,19 @@
   align-items: center; }
   .sativas img {
     border: 5px solid transparent;
-    padding: 0px;
     border-image: url(/images/fondoimgs.jpg) 30 round;
     border-radius: 5px; }
   .sativas h3 {
     text-align: center;
     font-family: "Sanchez", serif;
-    color: #c3e24c;
-    font-size: 35px; }
+    color: #c3e24c; }
   .sativas ul {
     list-style: none;
     display: flex;
     justify-content: center; }
     .sativas ul li {
       color: #126f3c;
-      padding: 10px;
-      font-family: "Aclonica", sans-serif;
-      font-size: 30px; }
+      font-family: "Aclonica", sans-serif; }
 
 .hibri2 {
   display: flex;
@@ -620,14 +668,12 @@
   align-items: center; }
   .hibri2 img {
     border: 5px solid transparent;
-    padding: 0px;
     border-image: url(/images/fondoimgs.jpg) 30 round;
     border-radius: 5px; }
   .hibri2 h3 {
     text-align: center;
     font-family: "Sanchez", serif;
-    color: #c3e24c;
-    font-size: 35px; }
+    color: #c3e24c; }
   .hibri2 ul {
     list-style: none;
     display: flex;
@@ -636,6 +682,71 @@
       display: flex;
       justify-content: center;
       color: #126f3c;
-      padding: 10px;
-      font-family: "Aclonica", sans-serif;
-      font-size: 30px; }
+      font-family: "Aclonica", sans-serif; }
+
+/* ------------------------------------ . ----------------------------------- */
+/* -------------------------------- CONTACTO -------------------------------- */
+/* ------------------------------------ . ----------------------------------- */
+.quienesSomos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .quienesSomos h2 {
+    font-family: "Bungee Inline", cursive;
+    background-image: url(/images/fondotitulos.jpg);
+    color: #124735;
+    border-radius: 5px;
+    text-align: center; }
+  .quienesSomos img {
+    border: 5px solid transparent;
+    border-image: url(/images/fondoimgs.jpg) 30 round;
+    border-radius: 5px; }
+  .quienesSomos p {
+    width: 90%;
+    font-family: "Sanchez", serif;
+    color: #c3e24c;
+    background-color: #12473577;
+    border-radius: 5px; }
+
+.datosMapa {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .datosMapa .datos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+    .datosMapa .datos h3 {
+      text-align: center;
+      font-family: "Sanchez", serif;
+      color: #c3e24c; }
+    .datosMapa .datos p {
+      font-family: "Sanchez", serif;
+      color: #c3e24c;
+      background-color: #124735ce;
+      border: solid 3px #126f3c;
+      border-radius: 5px; }
+  .datosMapa .mapa {
+    border: 5px solid transparent;
+    border-image: url(/images/fondoimgs.jpg) 30 round;
+    border-radius: 5px; }
+
+.formularioContacto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .formularioContacto h3 {
+    font-family: "Bungee Inline", cursive;
+    background-image: url(/images/fondotitulos.jpg);
+    color: #124735;
+    border-radius: 5px;
+    text-align: center; }
+  .formularioContacto p {
+    width: 90%;
+    font-family: "Sanchez", serif;
+    color: #c3e24c;
+    background-color: #12473577;
+    border-radius: 5px; }

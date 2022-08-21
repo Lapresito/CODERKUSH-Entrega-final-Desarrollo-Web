@@ -1,5 +1,7 @@
 @import "./variables.scss";
 @import "./mixin.scss";
+@import "./medias.scss";
+@include mediamobile;
 
 * {
     border: 0px;
@@ -9,6 +11,7 @@
 
 .body {
     background-image: url(/images/Fondo2.jpg);
+    height: 100%;
 }
 
 /* ------------------------------------ . ----------------------------------- */
@@ -24,7 +27,6 @@
 
 // Titulo de la Pagina (CODERKUSH)
 .titulopag {
-    margin: 70px 0px 20px 50px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -38,7 +40,6 @@
 
 .tituloPagina {
     color: blueviolet;
-    font-size: 60px;
     font-family: $font1;
 
     span {
@@ -49,14 +50,10 @@
 // Barra de Navegacion
 .barra {
     flex: 1;
-    max-width: 850px;
-
     .nav {
         display: flex;
         justify-content: space-around;
         align-self: flex-end;
-        margin-top: 100px;
-        margin-right: 250px;
     }
 
     li {
@@ -65,7 +62,6 @@
         a {
             text-decoration: none;
             list-style: none;
-            font-size: 20px;
             font-family: $font5;
             color: $color5;
         }
@@ -82,7 +78,6 @@
     align-items: flex-end;
     justify-content: center;
     text-align: center;
-    margin: 0px 30px 20px 0px;
 
     a {
         text-decoration: none;
@@ -96,7 +91,6 @@
 }
 
 .inicioSesionBot {
-    font-size: 20px;
     text-align: center;
     color: $color5;
 }
@@ -118,10 +112,8 @@
         display: flex;
         justify-content: flex-start;
         align-items: center;
-        margin-right: 30px;
 
         a {
-            padding: 15px;
             color: $color5;
         }
 
@@ -138,7 +130,6 @@
         align-items: center;
 
         a {
-            padding: 15px;
             color: $color5;
         }
 
@@ -152,10 +143,8 @@
         display: flex;
         justify-content: flex-end;
         align-items: center;
-        margin-left: 30px;
 
         a {
-            padding: 15px;
             color: $color5;
         }
 
@@ -202,10 +191,10 @@
         font-family: $font4;
         color: $color5;
         background-color: #124735ce;
-        font-size: 20px;
         border: solid 3px $color3;
         border-radius: 5px;
     }
+
     p {
         width: 60%;
         font-family: $font4;
@@ -232,36 +221,41 @@
     h3 {
         font-family: $font4;
         color: $color5;
-        font-size: 35px;
     }
-a{
-    text-decoration: none;
-    p {
-        width: 100%;
-        font-family: $font4;
-        color: $color5;
-        background-color: #12473577;
-        border: solid 3px $color3;
-        border-radius: 5px;
+
+    a {
+        text-decoration: none;
+
+        p {
+            width: 100%;
+            font-family: $font4;
+            color: $color5;
+            background-color: #12473577;
+            border: solid 3px $color3;
+            border-radius: 5px;
+        }
     }
 }
-}
+
 /* ----------------------- ALGUNOS VIDEOS INTERESANTES ---------------------- */
 // Cartel de Algunos...
-.algunosVideosInteresantes{
+.algunosVideosInteresantes {
     @include estructuraColCen;
+
     h2 {
         @include titulos;
     }
+
     ul {
         list-style: none;
     }
 }
+
 // Video 1
-.videosInteresantes{
-    ul{
-        li{
-            h3{
+.videosInteresantes {
+    ul {
+        li {
+            h3 {
                 @include subtitulos;
             }
         }
@@ -271,21 +265,25 @@ a{
 /* ------------------------------------ . ----------------------------------- */
 /* ------------------------------- INFORMACION ------------------------------ */
 /* ------------------------------------ . ----------------------------------- */
-.info{
+.info {
     @include estructuraColCen;
 }
+
 // Marihuana que es?
-.mariqes{
+.mariqes {
     @include estructuraColCen;
-    h2{
+
+    h2 {
         @include titulos;
     }
-    .imagenesInfo1{
-        img{
+
+    .imagenesInfo1 {
+        img {
             @include imagenes;
         }
     }
-    p{
+
+    p {
         width: 80%;
         font-family: $font4;
         color: $color5;
@@ -293,16 +291,20 @@ a{
         border-radius: 5px;
     }
 }
+
 // Historia
-.history{
+.history {
     @include estructuraColCen;
-    h2{
+
+    h2 {
         @include titulos;
     }
-    img{
+
+    img {
         @include imagenes;
     }
-    p{
+
+    p {
         width: 80%;
         font-family: $font4;
         color: $color5;
@@ -310,16 +312,20 @@ a{
         border-radius: 5px;
     }
 }
+
 // Usos Medicinales y recreativos
-.usos{
+.usos {
     @include estructuraColCen;
-    h2{
+
+    h2 {
         @include titulos;
     }
-    img{
+
+    img {
         @include imagenes;
     }
-    p{
+
+    p {
         width: 90%;
         font-family: $font4;
         color: $color5;
@@ -333,15 +339,18 @@ a{
 /* ------------------------------------ . ----------------------------------- */
 
 // Cultivo
-.cultiv{
+.cultiv {
     @include estructuraColCen;
-    h2{
+
+    h2 {
         @include titulos;
     }
-    img{
+
+    img {
         @include imagenes;
     }
-    p{
+
+    p {
         width: 90%;
         font-family: $font4;
         color: $color5;
@@ -351,15 +360,18 @@ a{
 }
 
 // Exterior
-.outdoor{
+.outdoor {
     @include estructuraColCen;
-    h2{
+
+    h2 {
         @include titulos;
     }
-    img{
+
+    img {
         @include imagenes;
     }
-    p{
+
+    p {
         width: 90%;
         font-family: $font4;
         color: $color5;
@@ -367,16 +379,20 @@ a{
         border-radius: 5px;
     }
 }
+
 // Interior
-.indoor{
+.indoor {
     @include estructuraColCen;
-    h2{
+
+    h2 {
         @include titulos;
     }
-    img{
+
+    img {
         @include imagenes;
     }
-    p{
+
+    p {
         width: 90%;
         font-family: $font4;
         color: $color5;
@@ -384,16 +400,20 @@ a{
         border-radius: 5px;
     }
 }
+
 // Hidroponico
-.hidro{
+.hidro {
     @include estructuraColCen;
-    h2{
+
+    h2 {
         @include titulos;
     }
-    img{
+
+    img {
         @include imagenes;
     }
-    p{
+
+    p {
         width: 90%;
         font-family: $font4;
         color: $color5;
@@ -408,199 +428,298 @@ a{
 /* ------------------------------------ . ----------------------------------- */
 
 /* ------------------------------ HALL OF FAME ------------------------------ */
-.hall{
+.hall {
     @include estructuraColCen;
-    h2{
+
+    h2 {
         @include titulos;
     }
-    img{
+
+    img {
         @include imagenes;
     }
-    p{
+
+    p {
         width: 90%;
         font-family: $font4;
         color: $color5;
         background-color: #12473577;
         border-radius: 5px;
     }
-    ol{
+
+    ol {
         list-style: none;
         display: flex;
         justify-content: center;
-        li{
+
+        li {
             color: $color3;
-            padding: 10px;
             font-family: $font3;
-            font-size: 30px;
         }
     }
 }
 
 /* --------------------------------- TOPS 10 -------------------------------- */
-.top10{
+.top10 {
     @include estructuraColCen;
-    h2{
+
+    h2 {
         @include titulos;
     }
-    img{
+
+    img {
         @include imagenes;
     }
 }
 
 // Top 10 sativas
-.sativas10{
+.sativas10 {
     @include estructuraColCen;
-    img{
+
+    img {
         @include imagenes;
     }
-    h3{
+
+    h3 {
         @include subtitulos;
     }
-    ol{
+
+    ol {
         list-style: none;
         display: flex;
         justify-content: center;
-        li{
+
+        li {
             color: $color3;
-            padding: 10px;
             font-family: $font3;
-            font-size: 30px;
         }
     }
 }
+
 // Top 10 indicas
-.indicas10{
+.indicas10 {
     @include estructuraColCen;
-    img{
+
+    img {
         @include imagenes;
     }
-    h3{
+
+    h3 {
         @include subtitulos;
     }
-    ol{
+
+    ol {
         list-style: none;
         display: flex;
         justify-content: center;
-        li{
+
+        li {
             color: $color3;
-            padding: 10px;
             font-family: $font3;
-            font-size: 30px;
         }
     }
 }
+
 // Top 10 hibridos
-.hibridos10{
+.hibridos10 {
     @include estructuraColCen;
-    img{
+
+    img {
         @include imagenes;
     }
-    h3{
+
+    h3 {
         @include subtitulos;
     }
-    ol{
+
+    ol {
         list-style: none;
         display: flex;
         justify-content: center;
-        li{
+
+        li {
             color: $color3;
-            padding: 10px;
             font-family: $font3;
-            font-size: 30px;
         }
     }
 }
 
 // Top 10 autoflorescientes
-.auto10{
+.auto10 {
     @include estructuraColCen;
-    img{
+
+    img {
         @include imagenes;
     }
-    h3{
+
+    h3 {
         @include subtitulos;
     }
-    ol{
+
+    ol {
         list-style: none;
         display: flex;
         justify-content: center;
-        li{
+
+        li {
             color: $color3;
-            padding: 10px;
             font-family: $font3;
-            font-size: 30px;
         }
     }
 }
+
 /* ------------------------------- VARIEDADES ------------------------------- */
-.variedades{
+.variedades {
     @include estructuraColCen;
-    h2{
+
+    h2 {
         @include titulos;
     }
 }
+
 // Indicas
-.indicas{
+.indicas {
     @include estructuraColCen;
-    img{
+
+    img {
         @include imagenes;
     }
-    h3{
+
+    h3 {
         @include subtitulos;
     }
-    ul{
+
+    ul {
         list-style: none;
         display: flex;
         justify-content: center;
-        li{
+
+        li {
             color: $color3;
-            padding: 10px;
             font-family: $font3;
-            font-size: 30px;
+
         }
     }
 }
+
 // Sativas
-.sativas{
+.sativas {
     @include estructuraColCen;
-    img{
+
+    img {
         @include imagenes;
     }
-    h3{
+
+    h3 {
         @include subtitulos;
     }
-    ul{
+
+    ul {
         list-style: none;
         display: flex;
         justify-content: center;
-        li{
+
+        li {
             color: $color3;
-            padding: 10px;
             font-family: $font3;
-            font-size: 30px;
+
         }
     }
 }
+
 // Hibridas
-.hibri2{
+.hibri2 {
     @include estructuraColCen;
-    img{
+
+    img {
         @include imagenes;
     }
-    h3{
+
+    h3 {
         @include subtitulos;
     }
-    ul{
+
+    ul {
         list-style: none;
         display: flex;
         justify-content: center;
-        li{
+
+        li {
             display: flex;
             justify-content: center;
             color: $color3;
-            padding: 10px;
             font-family: $font3;
-            font-size: 30px;
+
         }
+    }
+}
+
+/* ------------------------------------ . ----------------------------------- */
+/* -------------------------------- CONTACTO -------------------------------- */
+/* ------------------------------------ . ----------------------------------- */
+
+// Quienes Somos
+.quienesSomos {
+    @include estructuraColCen;
+
+    h2 {
+        @include titulos;
+    }
+
+    img {
+        @include imagenes;
+    }
+
+    p {
+        width: 90%;
+        font-family: $font4;
+        color: $color5;
+        background-color: #12473577;
+        border-radius: 5px;
+    }
+}
+
+// Info y ubicacion
+.datosMapa {
+    @include estructuraColCen;
+
+    .datos {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        h3 {
+            @include subtitulos;
+        }
+
+        p {
+            font-family: $font4;
+            color: $color5;
+            background-color: #124735ce;
+
+            border: solid 3px $color3;
+            border-radius: 5px;
+        }
+    }
+
+    .mapa {
+        @include imagenes;
+    }
+}
+
+// Formulario de contacto
+.formularioContacto {
+    @include estructuraColCen;
+
+    h3 {
+        @include titulos;
+    }
+
+    p {
+        width: 90%;
+        font-family: $font4;
+        color: $color5;
+        background-color: #12473577;
+        border-radius: 5px;
     }
 }
