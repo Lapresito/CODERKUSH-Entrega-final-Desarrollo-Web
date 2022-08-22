@@ -119,6 +119,7 @@
 
         a {
             color: $color5;
+            padding: 15px;
         }
 
         :hover {
@@ -150,10 +151,131 @@
 
         a {
             color: $color5;
+            padding: 15px;
         }
 
         :hover {
             color: $color4;
+        }
+    }
+}
+
+/* ------------------------------------ . ----------------------------------- */
+/* ---------------------------------- INDEX --------------------------------- */
+/* ------------------------------------ . ----------------------------------- */
+
+/* -------------------------------- NOTICIAS -------------------------------- */
+
+// Cartel de NEWS
+.news {
+    @include estructuraColCen;
+
+    h2 {
+        @include titulos;
+    }
+
+    ul {
+        list-style: none;
+    }
+}
+
+// Contenido de Noticia 1 (txt, img)
+.new1 {
+    @include estructuraColCen;
+    flex-wrap: wrap;
+    width: 100%;
+
+    h3 {
+        @include subtitulos;
+        font-size: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    img {
+        @include imagenes;
+        width: 450px;
+    }
+
+    .adjuntoNota {
+        width: 90%;
+
+        font-family: $font4;
+        color: $color5;
+        background-color: #124735ce;
+        border: solid 3px $color3;
+        border-radius: 5px;
+    }
+
+    p {
+        width: 90%;
+        font-family: $font4;
+        color: $color5;
+        background-color: #12473577;
+        border-radius: 5px;
+    }
+
+    a {
+        list-style: none;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+    }
+}
+
+// Contenido de Noticia 2 (txt, img)
+.new2 {
+    @include estructuraColCen;
+
+    h3 {
+        font-family: $font4;
+        color: $color5;
+    }
+    img{
+        width: 450px;
+    }
+    a {
+        text-decoration: none;
+
+        p {
+            width: 90%;
+            font-family: $font4;
+            color: $color5;
+            background-color: #12473577;
+            border: solid 3px $color3;
+            border-radius: 5px;
+        }
+    }
+}
+
+/* ----------------------- ALGUNOS VIDEOS INTERESANTES ---------------------- */
+// Cartel de Algunos...
+.algunosVideosInteresantes {
+    @include estructuraColCen;
+
+    h2 {
+        @include titulos;
+    }
+
+    ul {
+        list-style: none;
+    }
+}
+
+// Video 1
+.videosInteresantes {
+    ul {
+        li {
+            h3 {
+                @include subtitulos;
+            }
+            iframe{
+                width: 450px;
+            }
         }
     }
 }

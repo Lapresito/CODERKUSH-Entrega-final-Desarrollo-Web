@@ -16,7 +16,8 @@
     justify-content: flex-start;
     align-items: center; }
     .footer .contactoFooter a {
-      color: #c3e24c; }
+      color: #c3e24c;
+      padding: 15px; }
     .footer .contactoFooter :hover {
       color: #6fa74c; }
   .footer .subir {
@@ -34,9 +35,112 @@
     justify-content: flex-end;
     align-items: center; }
     .footer .redes a {
-      color: #c3e24c; }
+      color: #c3e24c;
+      padding: 15px; }
     .footer .redes :hover {
       color: #6fa74c; }
+
+/* ------------------------------------ . ----------------------------------- */
+/* ---------------------------------- INDEX --------------------------------- */
+/* ------------------------------------ . ----------------------------------- */
+/* -------------------------------- NOTICIAS -------------------------------- */
+.news {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .news h2 {
+    font-family: "Bungee Inline", cursive;
+    background-image: url(/images/fondotitulos.jpg);
+    color: #124735;
+    border-radius: 5px;
+    text-align: center; }
+  .news ul {
+    list-style: none; }
+
+.new1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%; }
+  .new1 h3 {
+    text-align: center;
+    font-family: "Sanchez", serif;
+    color: #c3e24c;
+    font-size: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%; }
+  .new1 img {
+    border: 5px solid transparent;
+    border-image: url(/images/fondoimgs.jpg) 30 round;
+    border-radius: 5px;
+    width: 450px; }
+  .new1 .adjuntoNota {
+    width: 90%;
+    font-family: "Sanchez", serif;
+    color: #c3e24c;
+    background-color: #124735ce;
+    border: solid 3px #126f3c;
+    border-radius: 5px; }
+  .new1 p {
+    width: 90%;
+    font-family: "Sanchez", serif;
+    color: #c3e24c;
+    background-color: #12473577;
+    border-radius: 5px; }
+  .new1 a {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; }
+
+.new2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .new2 h3 {
+    font-family: "Sanchez", serif;
+    color: #c3e24c; }
+  .new2 img {
+    width: 450px; }
+  .new2 a {
+    text-decoration: none; }
+    .new2 a p {
+      width: 90%;
+      font-family: "Sanchez", serif;
+      color: #c3e24c;
+      background-color: #12473577;
+      border: solid 3px #126f3c;
+      border-radius: 5px; }
+
+/* ----------------------- ALGUNOS VIDEOS INTERESANTES ---------------------- */
+.algunosVideosInteresantes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .algunosVideosInteresantes h2 {
+    font-family: "Bungee Inline", cursive;
+    background-image: url(/images/fondotitulos.jpg);
+    color: #124735;
+    border-radius: 5px;
+    text-align: center; }
+  .algunosVideosInteresantes ul {
+    list-style: none; }
+
+.videosInteresantes ul li h3 {
+  text-align: center;
+  font-family: "Sanchez", serif;
+  color: #c3e24c; }
+
+.videosInteresantes ul li iframe {
+  width: 450px; }
 
 @media (min-width: 0px) and (max-width: 480px) {
   .body {
