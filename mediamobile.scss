@@ -176,6 +176,8 @@
 
     ul {
         list-style: none;
+        padding: 0;
+        margin: 0;
     }
 }
 
@@ -187,7 +189,6 @@
 
     h3 {
         @include subtitulos;
-        font-size: 1rem;
         display: flex;
         flex-wrap: wrap;
         width: 100%;
@@ -236,7 +237,7 @@
         color: $color5;
     }
     img{
-        width: 450px;
+        width: 100%;
     }
     a {
         text-decoration: none;
@@ -248,6 +249,7 @@
             background-color: #12473577;
             border: solid 3px $color3;
             border-radius: 5px;
+            text-align: center;
         }
     }
 }
@@ -275,6 +277,7 @@
             }
             iframe{
                 width: 450px;
+                height: 500px;
             }
         }
     }

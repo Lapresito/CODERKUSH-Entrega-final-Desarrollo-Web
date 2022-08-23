@@ -56,7 +56,9 @@
     border-radius: 5px;
     text-align: center; }
   .news ul {
-    list-style: none; }
+    list-style: none;
+    padding: 0;
+    margin: 0; }
 
 .new1 {
   display: flex;
@@ -69,7 +71,6 @@
     text-align: center;
     font-family: "Sanchez", serif;
     color: #c3e24c;
-    font-size: 1rem;
     display: flex;
     flex-wrap: wrap;
     width: 100%; }
@@ -108,7 +109,7 @@
     font-family: "Sanchez", serif;
     color: #c3e24c; }
   .new2 img {
-    width: 450px; }
+    width: 100%; }
   .new2 a {
     text-decoration: none; }
     .new2 a p {
@@ -117,7 +118,8 @@
       color: #c3e24c;
       background-color: #12473577;
       border: solid 3px #126f3c;
-      border-radius: 5px; }
+      border-radius: 5px;
+      text-align: center; }
 
 /* ----------------------- ALGUNOS VIDEOS INTERESANTES ---------------------- */
 .algunosVideosInteresantes {
@@ -140,7 +142,8 @@
   color: #c3e24c; }
 
 .videosInteresantes ul li iframe {
-  width: 450px; }
+  width: 450px;
+  height: 500px; }
 
 @media (min-width: 0px) and (max-width: 480px) {
   .body {
@@ -352,14 +355,12 @@
     border-image: url(/images/fondoimgs.jpg) 30 round;
     border-radius: 5px; }
   .new1 .adjuntoNota {
-    width: 60%;
     font-family: "Sanchez", serif;
     color: #c3e24c;
     background-color: #124735ce;
     border: solid 3px #126f3c;
     border-radius: 5px; }
   .new1 p {
-    width: 60%;
     font-family: "Sanchez", serif;
     color: #c3e24c;
     background-color: #12473577;
@@ -383,7 +384,6 @@
   .new2 a {
     text-decoration: none; }
     .new2 a p {
-      width: 100%;
       font-family: "Sanchez", serif;
       color: #c3e24c;
       background-color: #12473577;
@@ -435,7 +435,6 @@
     border-image: url(/images/fondoimgs.jpg) 30 round;
     border-radius: 5px; }
   .mariqes p {
-    width: 80%;
     font-family: "Sanchez", serif;
     color: #c3e24c;
     background-color: #12473577;
@@ -457,7 +456,6 @@
     border-image: url(/images/fondoimgs.jpg) 30 round;
     border-radius: 5px; }
   .history p {
-    width: 80%;
     font-family: "Sanchez", serif;
     color: #c3e24c;
     background-color: #12473577;
@@ -479,7 +477,6 @@
     border-image: url(/images/fondoimgs.jpg) 30 round;
     border-radius: 5px; }
   .usos p {
-    width: 90%;
     font-family: "Sanchez", serif;
     color: #c3e24c;
     background-color: #12473577;
@@ -504,7 +501,6 @@
     border-image: url(/images/fondoimgs.jpg) 30 round;
     border-radius: 5px; }
   .cultiv p {
-    width: 90%;
     font-family: "Sanchez", serif;
     color: #c3e24c;
     background-color: #12473577;
@@ -526,7 +522,6 @@
     border-image: url(/images/fondoimgs.jpg) 30 round;
     border-radius: 5px; }
   .outdoor p {
-    width: 90%;
     font-family: "Sanchez", serif;
     color: #c3e24c;
     background-color: #12473577;
@@ -548,7 +543,6 @@
     border-image: url(/images/fondoimgs.jpg) 30 round;
     border-radius: 5px; }
   .indoor p {
-    width: 90%;
     font-family: "Sanchez", serif;
     color: #c3e24c;
     background-color: #12473577;
@@ -570,7 +564,6 @@
     border-image: url(/images/fondoimgs.jpg) 30 round;
     border-radius: 5px; }
   .hidro p {
-    width: 90%;
     font-family: "Sanchez", serif;
     color: #c3e24c;
     background-color: #12473577;
@@ -596,7 +589,6 @@
     border-image: url(/images/fondoimgs.jpg) 30 round;
     border-radius: 5px; }
   .hall p {
-    width: 90%;
     font-family: "Sanchez", serif;
     color: #c3e24c;
     background-color: #12473577;
@@ -807,7 +799,6 @@
     border-image: url(/images/fondoimgs.jpg) 30 round;
     border-radius: 5px; }
   .quienesSomos p {
-    width: 90%;
     font-family: "Sanchez", serif;
     color: #c3e24c;
     background-color: #12473577;
@@ -849,7 +840,6 @@
     border-radius: 5px;
     text-align: center; }
   .formularioContacto p {
-    width: 90%;
     font-family: "Sanchez", serif;
     color: #c3e24c;
     background-color: #12473577;
