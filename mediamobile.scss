@@ -7,98 +7,74 @@
             border: 0px;
         }
     }
+}
 
-    /* ------------------------------------ . ----------------------------------- */
-    /* --------------------------------- HEADER --------------------------------- */
-    /* ------------------------------------ . ----------------------------------- */
-    .header {
-        width: 100%;
-        height: 150px;
+/* ------------------------------------ . ----------------------------------- */
+/* --------------------------------- HEADER --------------------------------- */
+/* ------------------------------------ . ----------------------------------- */
+.headerNormal {
+    display: none;
+}
+
+.headerMobile {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .tituloBotIni {
         display: flex;
         justify-content: space-between;
-        background-image: url(/images/Fondotot1.jpg);
-    }
-    
-    // Titulo de la Pagina (CODERKUSH)
-    .titulopag {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-    
-        a {
-            text-decoration: none;
-            list-style: none;
+        align-items: flex-start;
+
+        .tituloPag {
+            font-size: 1rem;
+        }
+
+        .tituloPagina {
+            margin: 20px 0px 0px 20px;
+        }
+
+        .inicioSesionBoton {
+            h3 {
+                font-size: 1rem;
+            }
+        }
+
+        .inicioSesionBot {
+            margin: 40px 20px 0px 0px;
         }
     }
-    
-    .tituloPagina {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        color: blueviolet;
-        font-family: $font1;
-        margin-left: 30px;
-    
-        span {
-            color: $color3;
-        }
-    }
-    
-    // Barra de Navegacion
-    .barra {
-        display: none;
+
+    .barraMobile {
         flex: 1;
+        display: flex;
+        align-items: flex-end;
+        margin-bottom: 20px;
+
         .nav {
             display: flex;
             justify-content: space-around;
             align-self: flex-end;
         }
-    
+
         li {
             list-style-type: none;
-    
+
             a {
                 text-decoration: none;
                 list-style: none;
                 font-family: $font5;
                 color: $color5;
             }
-    
+
             :hover {
                 color: $color4;
             }
         }
     }
-    
-    // Boton de Inicio de Sesion
-    .inicioSesionBoton {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: flex-start;
-        text-align: center;
-        margin-right: 10px;
-    
-        a {
-            text-decoration: none;
-            list-style: none;
-            font-family: $font5;
-        }
-    
-        :hover {
-            color: $color4;
-        }
-    }
-    
-    .inicioSesionBot {
-        text-align: center;
-        color: $color5;
-        font-size: 1rem;
-    }
 }
+
 /* ------------------------------------ . ----------------------------------- */
 /* --------------------------------- FOOTER --------------------------------- */
 /* ------------------------------------ . ----------------------------------- */
@@ -196,7 +172,7 @@
 
     img {
         @include imagenes;
-        width: 450px;
+        width: 95%;
     }
 
     .adjuntoNota {
@@ -211,10 +187,7 @@
 
     p {
         width: 90%;
-        font-family: $font4;
-        color: $color5;
-        background-color: #12473577;
-        border-radius: 5px;
+        @include texto;
     }
 
     a {
@@ -233,22 +206,22 @@
     @include estructuraColCen;
 
     h3 {
-        font-family: $font4;
-        color: $color5;
-    }
-    img{
+        @include subtitulos;
+        display: flex;
+        flex-wrap: wrap;
         width: 100%;
     }
+
+    img {
+        width: 100%;
+    }
+
     a {
         text-decoration: none;
 
         p {
             width: 90%;
-            font-family: $font4;
-            color: $color5;
-            background-color: #12473577;
-            border: solid 3px $color3;
-            border-radius: 5px;
+            @include texto;
             text-align: center;
         }
     }
@@ -261,10 +234,14 @@
 
     h2 {
         @include titulos;
+        flex-wrap: wrap;
+        width: 80%;
     }
 
     ul {
         list-style: none;
+        padding: 0;
+        margin: 0;
     }
 }
 
@@ -275,10 +252,324 @@
             h3 {
                 @include subtitulos;
             }
-            iframe{
+
+            iframe {
                 width: 450px;
                 height: 500px;
             }
+        }
+    }
+}
+
+/* ------------------------------------ . ----------------------------------- */
+/* ------------------------------- INFORMACION ------------------------------ */
+/* ------------------------------------ . ----------------------------------- */
+.info {
+    @include estructuraColCen;
+}
+
+// Marihuana que es?
+.mariqes {
+    @include estructuraColCen;
+
+    h2 {
+        @include titulos;
+    }
+
+    .imagenesInfo1 {
+        @include estructuraColCen;
+
+        img {
+            @include imagenes;
+            width: 95%;
+        }
+    }
+
+    p {
+        @include texto;
+        width: 90%;
+    }
+}
+
+// Historia
+.history {
+    @include estructuraColCen;
+
+    h2 {
+        @include titulos;
+        margin-top: 10px;
+    }
+
+    img {
+        @include imagenes;
+        width: 95%;
+    }
+
+    p {
+        @include texto;
+        width: 90%;
+    }
+}
+
+// Usos Medicinales y recreativos
+.usos {
+    @include estructuraColCen;
+
+    h2 {
+        @include titulos;
+    }
+
+    .imagenesInfo2 {
+        @include estructuraColCen;
+    }
+
+    img {
+        @include imagenes;
+        width: 95%;
+    }
+
+    p {
+        @include texto;
+        width: 90%;
+    }
+}
+
+/* ------------------------------------ . ----------------------------------- */
+/* --------------------------------- CULTIVO -------------------------------- */
+/* ------------------------------------ . ----------------------------------- */
+
+// Cultivo
+.cultiv {
+    @include estructuraColCen;
+
+    h2 {
+        @include titulos;
+    }
+
+    img {
+        @include imagenes;
+        width: 95%;
+    }
+
+    p {
+        @include texto;
+        width: 90%;
+    }
+}
+
+// Exterior
+.outdoor {
+    @include estructuraColCen;
+
+    h2 {
+        @include titulos;
+    }
+
+    img {
+        @include imagenes;
+        width: 95%;
+    }
+
+    p {
+        @include texto;
+        width: 90%;
+    }
+}
+
+// Interior
+.indoor {
+    @include estructuraColCen;
+
+    h2 {
+        @include titulos;
+    }
+
+    img {
+        @include imagenes;
+        width: 95%;
+    }
+
+    p {
+        @include texto;
+        width: 90%;
+    }
+}
+
+// Hidroponico
+.hidro {
+    @include estructuraColCen;
+
+    h2 {
+        @include titulos;
+    }
+
+    img {
+        @include imagenes;
+        width: 95%;
+    }
+
+    p {
+        @include texto;
+        width: 90%;
+    }
+}
+
+/* ------------------------------------ . ----------------------------------- */
+/* ------------------------------- VARIEDADES ------------------------------- */
+/* ------------------------------------ . ----------------------------------- */
+
+/* ------------------------------ HALL OF FAME ------------------------------ */
+.hall {
+    @include estructuraColCen;
+
+    h2 {
+        @include titulos;
+    }
+
+    img {
+        @include imagenes;
+        width: 95%;
+    }
+
+    p {
+        @include texto;
+        width: 90%;
+    }
+
+    ol {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+
+        li {
+            color: $color3;
+            font-family: $font3;
+        }
+    }
+}
+
+/* --------------------------------- TOPS 10 -------------------------------- */
+.top10 {
+    @include estructuraColCen;
+
+    h2 {
+        @include titulos;
+    }
+
+    img {
+        @include imagenes;
+        width: 95%;
+    }
+}
+
+// Top 10 sativas
+.sativas10 {
+    @include estructuraColCen;
+
+    img {
+        @include imagenes;
+        width: 95%;
+    }
+
+    h3 {
+        @include subtitulos;
+    }
+
+    ol {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+
+        li {
+            color: $color3;
+            font-family: $font3;
+        }
+    }
+}
+
+// Top 10 indicas
+.indicas10 {
+    @include estructuraColCen;
+
+    img {
+        @include imagenes;
+        width: 95%;
+    }
+
+    h3 {
+        @include subtitulos;
+    }
+
+    ol {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+
+        li {
+            color: $color3;
+            font-family: $font3;
+        }
+    }
+}
+
+// Top 10 hibridos
+.hibridos10 {
+    @include estructuraColCen;
+
+    img {
+        @include imagenes;
+        width: 95%;
+    }
+
+    h3 {
+        @include subtitulos;
+    }
+
+    ol {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+
+        li {
+            @include estructuraColCen;
+            color: $color3;
+            font-family: $font3;
+            width: 100%;
+        }
+    }
+}
+
+// Top 10 autoflorescientes
+.auto10 {
+    @include estructuraColCen;
+
+    img {
+        @include imagenes;
+        width: 95%;
+    }
+
+    h3 {
+        @include subtitulos;
+    }
+
+    ol {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+
+        li {
+            color: $color3;
+            font-family: $font3;
         }
     }
 }

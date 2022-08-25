@@ -50,6 +50,7 @@
 // Barra de Navegacion
 .barra {
     flex: 1;
+
     .nav {
         display: flex;
         justify-content: space-around;
@@ -75,9 +76,6 @@
 // Boton de Inicio de Sesion
 .inicioSesionBoton {
     display: flex;
-    align-items: flex-end;
-    justify-content: center;
-    text-align: center;
 
     a {
         text-decoration: none;
@@ -195,10 +193,7 @@
     }
 
     p {
-        font-family: $font4;
-        color: $color5;
-        background-color: #12473577;
-        border-radius: 5px;
+        @include texto;
     }
 
     a {
@@ -225,11 +220,7 @@
         text-decoration: none;
 
         p {
-            font-family: $font4;
-            color: $color5;
-            background-color: #12473577;
-            border: solid 3px $color3;
-            border-radius: 5px;
+            @include texto;
         }
     }
 }
@@ -281,10 +272,7 @@
     }
 
     p {
-        font-family: $font4;
-        color: $color5;
-        background-color: #12473577;
-        border-radius: 5px;
+        @include texto;
     }
 }
 
@@ -301,10 +289,7 @@
     }
 
     p {
-        font-family: $font4;
-        color: $color5;
-        background-color: #12473577;
-        border-radius: 5px;
+        @include texto;
     }
 }
 
@@ -321,10 +306,7 @@
     }
 
     p {
-        font-family: $font4;
-        color: $color5;
-        background-color: #12473577;
-        border-radius: 5px;
+        @include texto;
     }
 }
 
@@ -345,10 +327,7 @@
     }
 
     p {
-        font-family: $font4;
-        color: $color5;
-        background-color: #12473577;
-        border-radius: 5px;
+        @include texto;
     }
 }
 
@@ -365,10 +344,7 @@
     }
 
     p {
-        font-family: $font4;
-        color: $color5;
-        background-color: #12473577;
-        border-radius: 5px;
+        @include texto;
     }
 }
 
@@ -385,10 +361,7 @@
     }
 
     p {
-        font-family: $font4;
-        color: $color5;
-        background-color: #12473577;
-        border-radius: 5px;
+        @include texto;
     }
 }
 
@@ -405,10 +378,7 @@
     }
 
     p {
-        font-family: $font4;
-        color: $color5;
-        background-color: #12473577;
-        border-radius: 5px;
+        @include texto;
     }
 }
 
@@ -430,10 +400,7 @@
     }
 
     p {
-        font-family: $font4;
-        color: $color5;
-        background-color: #12473577;
-        border-radius: 5px;
+        @include texto;
     }
 
     ol {
@@ -557,92 +524,6 @@
     }
 }
 
-/* ------------------------------- VARIEDADES ------------------------------- */
-.variedades {
-    @include estructuraColCen;
-
-    h2 {
-        @include titulos;
-    }
-}
-
-// Indicas
-.indicas {
-    @include estructuraColCen;
-
-    img {
-        @include imagenes;
-    }
-
-    h3 {
-        @include subtitulos;
-    }
-
-    ul {
-        list-style: none;
-        display: flex;
-        justify-content: center;
-
-        li {
-            color: $color3;
-            font-family: $font3;
-
-        }
-    }
-}
-
-// Sativas
-.sativas {
-    @include estructuraColCen;
-
-    img {
-        @include imagenes;
-    }
-
-    h3 {
-        @include subtitulos;
-    }
-
-    ul {
-        list-style: none;
-        display: flex;
-        justify-content: center;
-
-        li {
-            color: $color3;
-            font-family: $font3;
-
-        }
-    }
-}
-
-// Hibridas
-.hibri2 {
-    @include estructuraColCen;
-
-    img {
-        @include imagenes;
-    }
-
-    h3 {
-        @include subtitulos;
-    }
-
-    ul {
-        list-style: none;
-        display: flex;
-        justify-content: center;
-
-        li {
-            display: flex;
-            justify-content: center;
-            color: $color3;
-            font-family: $font3;
-
-        }
-    }
-}
-
 /* ------------------------------------ . ----------------------------------- */
 /* -------------------------------- CONTACTO -------------------------------- */
 /* ------------------------------------ . ----------------------------------- */
@@ -660,10 +541,7 @@
     }
 
     p {
-        font-family: $font4;
-        color: $color5;
-        background-color: #12473577;
-        border-radius: 5px;
+        @include texto;
     }
 }
 
@@ -681,12 +559,7 @@
         }
 
         p {
-            font-family: $font4;
-            color: $color5;
-            background-color: #124735ce;
-
-            border: solid 3px $color3;
-            border-radius: 5px;
+            @include texto;
         }
     }
 
@@ -704,9 +577,6 @@
     }
 
     p {
-        font-family: $font4;
-        color: $color5;
-        background-color: #12473577;
-        border-radius: 5px;
+        @include texto;
     }
 }
