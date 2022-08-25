@@ -6,6 +6,53 @@
 .headerNormal {
   display: none; }
 
+.navMobile {
+  display: flex;
+  grid-column: 1 / 2;
+  grid-row: 1 / 2; }
+
+.botonMenu {
+  margin: 0 auto;
+  display: block;
+  width: 40px;
+  height: 36px;
+  padding: 0px 0px 20px 20px;
+  border-radius: 7px;
+  background: none;
+  color: #6fa74c;
+  cursor: pointer;
+  position: relative; }
+  .botonMenu span {
+    display: block;
+    width: 40px;
+    height: 4px;
+    background: #6fa74c;
+    margin-top: 7px; }
+
+label {
+  cursor: pointer; }
+
+#menu-toggle {
+  display: none; }
+
+#trickMenu {
+  display: none;
+  text-align: center;
+  background-image: url(/images/Fondotot1.jpg);
+  padding: 10px 0;
+  text-decoration: none; }
+  #trickMenu li a {
+    display: block;
+    padding: 10px 0;
+    color: #6fa74c;
+    font-size: 30px;
+    text-decoration: none;
+    font-family: "Permanent Marker", cursive; }
+
+#menu-toggle:checked + #trickMenu {
+  display: block;
+  position: absolute; }
+
 .headerMobile {
   flex: 1;
   display: flex;
@@ -23,24 +70,6 @@
       font-size: 1rem; }
     .headerMobile .tituloBotIni .inicioSesionBot {
       margin: 40px 20px 0px 0px; }
-  .headerMobile .barraMobile {
-    flex: 1;
-    display: flex;
-    align-items: flex-end;
-    margin-bottom: 20px; }
-    .headerMobile .barraMobile .nav {
-      display: flex;
-      justify-content: space-around;
-      align-self: flex-end; }
-    .headerMobile .barraMobile li {
-      list-style-type: none; }
-      .headerMobile .barraMobile li a {
-        text-decoration: none;
-        list-style: none;
-        font-family: "Permanent Marker", cursive;
-        color: #c3e24c; }
-      .headerMobile .barraMobile li :hover {
-        color: #6fa74c; }
 
 /* ------------------------------------ . ----------------------------------- */
 /* --------------------------------- FOOTER --------------------------------- */
@@ -191,7 +220,7 @@
   color: #c3e24c; }
 
 .videosInteresantes ul li iframe {
-  width: 450px;
+  width: 95%;
   height: 500px; }
 
 /* ------------------------------------ . ----------------------------------- */
@@ -386,7 +415,8 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  width: 100%; }
   .hall h2 {
     font-family: "Bungee Inline", cursive;
     background-image: url(/images/fondotitulos.jpg);
@@ -409,7 +439,8 @@
     display: flex;
     justify-content: center;
     padding: 0;
-    margin: 0; }
+    margin: 0;
+    width: 100%; }
     .hall ol li {
       color: #126f3c;
       font-family: "Aclonica", sans-serif; }
@@ -419,7 +450,8 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  width: 100%; }
   .top10 h2 {
     font-family: "Bungee Inline", cursive;
     background-image: url(/images/fondotitulos.jpg);
@@ -436,7 +468,8 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  width: 100%; }
   .sativas10 img {
     border: 5px solid transparent;
     border-image: url(/images/fondoimgs.jpg) 30 round;
@@ -460,7 +493,8 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  width: 100%; }
   .indicas10 img {
     border: 5px solid transparent;
     border-image: url(/images/fondoimgs.jpg) 30 round;
@@ -480,65 +514,16 @@
       color: #126f3c;
       font-family: "Aclonica", sans-serif; }
 
-.hibridos10 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; }
-  .hibridos10 img {
-    border: 5px solid transparent;
-    border-image: url(/images/fondoimgs.jpg) 30 round;
-    border-radius: 5px;
-    width: 95%; }
-  .hibridos10 h3 {
-    text-align: center;
-    font-family: "Sanchez", serif;
-    color: #c3e24c; }
-  .hibridos10 ol {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    padding: 0;
-    margin: 0; }
-    .hibridos10 ol li {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      color: #126f3c;
-      font-family: "Aclonica", sans-serif;
-      width: 100%; }
-
-.auto10 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; }
-  .auto10 img {
-    border: 5px solid transparent;
-    border-image: url(/images/fondoimgs.jpg) 30 round;
-    border-radius: 5px;
-    width: 95%; }
-  .auto10 h3 {
-    text-align: center;
-    font-family: "Sanchez", serif;
-    color: #c3e24c; }
-  .auto10 ol {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    padding: 0;
-    margin: 0; }
-    .auto10 ol li {
-      color: #126f3c;
-      font-family: "Aclonica", sans-serif; }
-
+/* ------------------------------------ . ----------------------------------- */
+/* --------------------------------- E-Shop --------------------------------- */
+/* ------------------------------------ . ----------------------------------- */
 @media (min-width: 0px) and (max-width: 480px) {
   .body {
     min-width: 0px;
     max-width: 480px;
     margin: 0px;
-    border: 0px; } }
+    border: 0px;
+    width: 100%; } }
 
 * {
   border: 0px;
@@ -548,6 +533,21 @@
 .body {
   background-image: url(/images/Fondo2.jpg);
   height: 100%; }
+
+.li {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+
+.ul {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+
+.ol {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
 
 /* ------------------------------------ . ----------------------------------- */
 /* --------------------------------- HEADER --------------------------------- */
@@ -911,6 +911,9 @@
     background-color: #12473577;
     border-radius: 5px; }
   .hall ol {
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
     list-style: none;
     display: flex;
     justify-content: center; }
@@ -974,48 +977,6 @@
     display: flex;
     justify-content: center; }
     .indicas10 ol li {
-      color: #126f3c;
-      font-family: "Aclonica", sans-serif; }
-
-.hibridos10 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; }
-  .hibridos10 img {
-    border: 5px solid transparent;
-    border-image: url(/images/fondoimgs.jpg) 30 round;
-    border-radius: 5px; }
-  .hibridos10 h3 {
-    text-align: center;
-    font-family: "Sanchez", serif;
-    color: #c3e24c; }
-  .hibridos10 ol {
-    list-style: none;
-    display: flex;
-    justify-content: center; }
-    .hibridos10 ol li {
-      color: #126f3c;
-      font-family: "Aclonica", sans-serif; }
-
-.auto10 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; }
-  .auto10 img {
-    border: 5px solid transparent;
-    border-image: url(/images/fondoimgs.jpg) 30 round;
-    border-radius: 5px; }
-  .auto10 h3 {
-    text-align: center;
-    font-family: "Sanchez", serif;
-    color: #c3e24c; }
-  .auto10 ol {
-    list-style: none;
-    display: flex;
-    justify-content: center; }
-    .auto10 ol li {
       color: #126f3c;
       font-family: "Aclonica", sans-serif; }
 

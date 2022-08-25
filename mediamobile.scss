@@ -5,6 +5,7 @@
             max-width: 480px;
             margin: 0px;
             border: 0px;
+            width: 100%;
         }
     }
 }
@@ -15,7 +16,64 @@
 .headerNormal {
     display: none;
 }
+.navMobile {
+    display: flex;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
 
+.botonMenu {
+    margin: 0 auto;
+    display: block;
+    width: 40px;
+    height: 36px;
+    padding: 0px 0px 20px 20px;
+    border-radius: 7px;
+    background: none;
+    color: $color4;
+    cursor: pointer;
+    position: relative;
+
+    span {
+        display: block;
+        width: 40px;
+        height: 4px;
+        background: $color4;
+        margin-top: 7px;
+    }
+}
+
+label {
+    cursor: pointer;
+}
+
+#menu-toggle {
+    display: none;
+}
+
+#trickMenu {
+    display: none;
+    text-align: center;
+    background-image: url(/images/Fondotot1.jpg);
+    padding: 10px 0;
+    text-decoration: none;
+
+    li {
+        a {
+            display: block;
+            padding: 10px 0;
+            color: $color4;
+            font-size: 30px;
+            text-decoration: none;
+            font-family: $font5;
+        }
+    }
+}
+
+#menu-toggle:checked+#trickMenu {
+    display: block;
+    position: absolute;
+}
 .headerMobile {
     flex: 1;
     display: flex;
@@ -45,35 +103,8 @@
             margin: 40px 20px 0px 0px;
         }
     }
-
-    .barraMobile {
-        flex: 1;
-        display: flex;
-        align-items: flex-end;
-        margin-bottom: 20px;
-
-        .nav {
-            display: flex;
-            justify-content: space-around;
-            align-self: flex-end;
-        }
-
-        li {
-            list-style-type: none;
-
-            a {
-                text-decoration: none;
-                list-style: none;
-                font-family: $font5;
-                color: $color5;
-            }
-
-            :hover {
-                color: $color4;
-            }
-        }
-    }
 }
+
 
 /* ------------------------------------ . ----------------------------------- */
 /* --------------------------------- FOOTER --------------------------------- */
@@ -254,7 +285,7 @@
             }
 
             iframe {
-                width: 450px;
+                width: 95%;
                 height: 500px;
             }
         }
@@ -421,6 +452,7 @@
 /* ------------------------------ HALL OF FAME ------------------------------ */
 .hall {
     @include estructuraColCen;
+    width: 100%;
 
     h2 {
         @include titulos;
@@ -442,6 +474,7 @@
         justify-content: center;
         padding: 0;
         margin: 0;
+        width: 100%;
 
         li {
             color: $color3;
@@ -453,6 +486,7 @@
 /* --------------------------------- TOPS 10 -------------------------------- */
 .top10 {
     @include estructuraColCen;
+    width: 100%;
 
     h2 {
         @include titulos;
@@ -467,6 +501,7 @@
 // Top 10 sativas
 .sativas10 {
     @include estructuraColCen;
+    width: 100%;
 
     img {
         @include imagenes;
@@ -494,6 +529,7 @@
 // Top 10 indicas
 .indicas10 {
     @include estructuraColCen;
+    width: 100%;
 
     img {
         @include imagenes;
@@ -518,58 +554,6 @@
     }
 }
 
-// Top 10 hibridos
-.hibridos10 {
-    @include estructuraColCen;
-
-    img {
-        @include imagenes;
-        width: 95%;
-    }
-
-    h3 {
-        @include subtitulos;
-    }
-
-    ol {
-        list-style: none;
-        display: flex;
-        justify-content: center;
-        padding: 0;
-        margin: 0;
-
-        li {
-            @include estructuraColCen;
-            color: $color3;
-            font-family: $font3;
-            width: 100%;
-        }
-    }
-}
-
-// Top 10 autoflorescientes
-.auto10 {
-    @include estructuraColCen;
-
-    img {
-        @include imagenes;
-        width: 95%;
-    }
-
-    h3 {
-        @include subtitulos;
-    }
-
-    ol {
-        list-style: none;
-        display: flex;
-        justify-content: center;
-        padding: 0;
-        margin: 0;
-
-        li {
-            color: $color3;
-            font-family: $font3;
-        }
-    }
-}
+/* ------------------------------------ . ----------------------------------- */
+/* --------------------------------- E-Shop --------------------------------- */
+/* ------------------------------------ . ----------------------------------- */

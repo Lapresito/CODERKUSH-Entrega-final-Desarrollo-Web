@@ -13,6 +13,21 @@
     background-image: url(/images/Fondo2.jpg);
     height: 100%;
 }
+.li{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.ol{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
 
 /* ------------------------------------ . ----------------------------------- */
 /* --------------------------------- HEADER --------------------------------- */
@@ -404,6 +419,9 @@
     }
 
     ol {
+        flex: 1;
+        display: flex;
+        justify-content: space-around;
         list-style: none;
         display: flex;
         justify-content: center;
@@ -476,53 +494,7 @@
     }
 }
 
-// Top 10 hibridos
-.hibridos10 {
-    @include estructuraColCen;
 
-    img {
-        @include imagenes;
-    }
-
-    h3 {
-        @include subtitulos;
-    }
-
-    ol {
-        list-style: none;
-        display: flex;
-        justify-content: center;
-
-        li {
-            color: $color3;
-            font-family: $font3;
-        }
-    }
-}
-
-// Top 10 autoflorescientes
-.auto10 {
-    @include estructuraColCen;
-
-    img {
-        @include imagenes;
-    }
-
-    h3 {
-        @include subtitulos;
-    }
-
-    ol {
-        list-style: none;
-        display: flex;
-        justify-content: center;
-
-        li {
-            color: $color3;
-            font-family: $font3;
-        }
-    }
-}
 
 /* ------------------------------------ . ----------------------------------- */
 /* -------------------------------- CONTACTO -------------------------------- */
