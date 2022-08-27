@@ -16,6 +16,7 @@
 .headerNormal {
     display: none;
 }
+
 .navMobile {
     display: flex;
     grid-column: 1 / 2;
@@ -74,6 +75,7 @@ label {
     display: block;
     position: absolute;
 }
+
 .headerMobile {
     flex: 1;
     display: flex;
@@ -557,3 +559,102 @@ label {
 /* ------------------------------------ . ----------------------------------- */
 /* --------------------------------- E-Shop --------------------------------- */
 /* ------------------------------------ . ----------------------------------- */
+.eshop {
+    @include estructuraColCen;
+
+    ul {
+        list-style: none;
+        padding: 0px;
+        margin: 0px;
+        @include estructuraColCen;
+        width: 100%;
+    }
+
+    li {
+        font-family: $font3;
+        color: $color3;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    input {
+        background-color: $color5;
+        border-radius: 5 px;
+        font-family: $font2;
+    }
+
+    .semillas {
+        @include estructuraColCen;
+        margin-top: 10px;
+
+        h2 {
+            @include titulos;
+        }
+
+        img {
+            @include imagenes;
+            width: 95%;
+        }
+    }
+
+    .parafernalias {
+        @include estructuraColCen;
+        margin-top: 10px;
+
+        h2 {
+            @include titulos;
+        }
+
+        #Grinder {
+            img {
+                width: 95%;
+            }
+        }
+
+        img {
+            @include imagenes;
+            width: 95%
+        }
+
+        .bongui {
+            @include imagenes;
+            width: 95%;
+        }
+    }
+
+    .fertilizantes {
+        @include estructuraColCen;
+        margin-top: 10px;
+
+        h2 {
+            @include titulos;
+        }
+
+        img {
+            @include imagenes;
+            width: 95%;
+        }
+    }
+
+    .cbdProd {
+        @include estructuraColCen;
+        margin-top: 10px;
+
+        h2 {
+            @include titulos;
+        }
+
+        h3 {
+            @include subtitulos;
+        }
+
+        p {
+            @include texto;
+        }
+
+        img {
+            @include imagenes;
+            width: 95%;
+        }
+    }
+}

@@ -517,6 +517,114 @@ label {
 /* ------------------------------------ . ----------------------------------- */
 /* --------------------------------- E-Shop --------------------------------- */
 /* ------------------------------------ . ----------------------------------- */
+.eshop {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .eshop ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%; }
+  .eshop li {
+    font-family: "Aclonica", sans-serif;
+    color: #126f3c;
+    font-size: 1.5rem;
+    text-align: center; }
+  .eshop input {
+    background-color: #c3e24c;
+    border-radius: 5 px;
+    font-family: "Rubik Dirt", cursive; }
+  .eshop .semillas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px; }
+    .eshop .semillas h2 {
+      font-family: "Bungee Inline", cursive;
+      background-image: url(/images/fondotitulos.jpg);
+      color: #124735;
+      border-radius: 5px;
+      text-align: center; }
+    .eshop .semillas img {
+      border: 5px solid transparent;
+      border-image: url(/images/fondoimgs.jpg) 30 round;
+      border-radius: 5px;
+      width: 95%; }
+  .eshop .parafernalias {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px; }
+    .eshop .parafernalias h2 {
+      font-family: "Bungee Inline", cursive;
+      background-image: url(/images/fondotitulos.jpg);
+      color: #124735;
+      border-radius: 5px;
+      text-align: center; }
+    .eshop .parafernalias #Grinder img {
+      width: 95%; }
+    .eshop .parafernalias img {
+      border: 5px solid transparent;
+      border-image: url(/images/fondoimgs.jpg) 30 round;
+      border-radius: 5px;
+      width: 95%; }
+    .eshop .parafernalias .bongui {
+      border: 5px solid transparent;
+      border-image: url(/images/fondoimgs.jpg) 30 round;
+      border-radius: 5px;
+      width: 95%; }
+  .eshop .fertilizantes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px; }
+    .eshop .fertilizantes h2 {
+      font-family: "Bungee Inline", cursive;
+      background-image: url(/images/fondotitulos.jpg);
+      color: #124735;
+      border-radius: 5px;
+      text-align: center; }
+    .eshop .fertilizantes img {
+      border: 5px solid transparent;
+      border-image: url(/images/fondoimgs.jpg) 30 round;
+      border-radius: 5px;
+      width: 95%; }
+  .eshop .cbdProd {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px; }
+    .eshop .cbdProd h2 {
+      font-family: "Bungee Inline", cursive;
+      background-image: url(/images/fondotitulos.jpg);
+      color: #124735;
+      border-radius: 5px;
+      text-align: center; }
+    .eshop .cbdProd h3 {
+      text-align: center;
+      font-family: "Sanchez", serif;
+      color: #c3e24c; }
+    .eshop .cbdProd p {
+      font-family: "Sanchez", serif;
+      color: #c3e24c;
+      background-color: #12473577;
+      border-radius: 5px; }
+    .eshop .cbdProd img {
+      border: 5px solid transparent;
+      border-image: url(/images/fondoimgs.jpg) 30 round;
+      border-radius: 5px;
+      width: 95%; }
+
 @media (min-width: 0px) and (max-width: 480px) {
   .body {
     min-width: 0px;
@@ -1042,4 +1150,21 @@ label {
     font-family: "Sanchez", serif;
     color: #c3e24c;
     background-color: #12473577;
+    border-radius: 5px; }
+
+/* ------------------------------------ . ----------------------------------- */
+/* --------------------------------- E-Shop --------------------------------- */
+/* ------------------------------------ . ----------------------------------- */
+/* -------------------------------- SEMILLAS -------------------------------- */
+.semillas {
+  display: flex; }
+  .semillas h2 {
+    font-family: "Bungee Inline", cursive;
+    background-image: url(/images/fondotitulos.jpg);
+    color: #124735;
+    border-radius: 5px;
+    text-align: center; }
+  .semillas img {
+    border: 5px solid transparent;
+    border-image: url(/images/fondoimgs.jpg) 30 round;
     border-radius: 5px; }
