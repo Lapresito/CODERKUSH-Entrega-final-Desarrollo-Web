@@ -538,7 +538,7 @@ label {
     text-align: center; }
   .eshop input {
     background-color: #c3e24c;
-    border-radius: 5 px;
+    border-radius: 5px;
     font-family: "Rubik Dirt", cursive; }
   .eshop .semillas {
     display: flex;
@@ -625,10 +625,1323 @@ label {
       border-radius: 5px;
       width: 95%; }
 
+/* ------------------------------------ . ----------------------------------- */
+/* -------------------------------- CONTACTO -------------------------------- */
+/* ------------------------------------ . ----------------------------------- */
+.quienesSomos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .quienesSomos h2 {
+    font-family: "Bungee Inline", cursive;
+    background-image: url(/images/fondotitulos.jpg);
+    color: #124735;
+    border-radius: 5px;
+    text-align: center; }
+  .quienesSomos p {
+    font-family: "Sanchez", serif;
+    color: #c3e24c;
+    background-color: #12473577;
+    border-radius: 5px;
+    width: 90%; }
+
+.datosMapa {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .datosMapa .datos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 98%; }
+    .datosMapa .datos h3 {
+      text-align: center;
+      font-family: "Sanchez", serif;
+      color: #c3e24c; }
+    .datosMapa .datos p {
+      background-color: #124735ce;
+      border: solid 3px #126f3c;
+      border-radius: 5px;
+      width: 98%; }
+  .datosMapa .mapa {
+    border: 5px solid transparent;
+    border-image: url(/images/fondoimgs.jpg) 30 round;
+    border-radius: 5px;
+    width: 95%;
+    height: 100%;
+    min-height: 300px;
+    margin-bottom: 10px; }
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .formulario h3 {
+    text-align: center;
+    font-family: "Sanchez", serif;
+    color: #c3e24c;
+    font-size: 1rem; }
+
+.formularioContacto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #124735ce;
+  border: solid 3px #126f3c;
+  border-radius: 5px;
+  width: 90%; }
+  .formularioContacto h2 {
+    text-align: center;
+    font-family: "Sanchez", serif;
+    color: #c3e24c; }
+  .formularioContacto p {
+    font-family: "Sanchez", serif;
+    color: #c3e24c;
+    background-color: #12473577;
+    border-radius: 5px; }
+  .formularioContacto .nombreApellido {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px; }
+    .formularioContacto .nombreApellido label {
+      text-align: center;
+      font-family: "Sanchez", serif;
+      color: #c3e24c; }
+    .formularioContacto .nombreApellido input {
+      background-color: #c3e24c;
+      border-radius: 5px; }
+  .formularioContacto .email {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px; }
+    .formularioContacto .email label {
+      text-align: center;
+      font-family: "Sanchez", serif;
+      color: #c3e24c; }
+    .formularioContacto .email input {
+      background-color: #c3e24c;
+      border-radius: 5px; }
+  .formularioContacto .pais {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px; }
+    .formularioContacto .pais label {
+      text-align: center;
+      font-family: "Sanchez", serif;
+      color: #c3e24c; }
+    .formularioContacto .pais input {
+      background-color: #c3e24c;
+      border-radius: 5px; }
+    .formularioContacto .pais select {
+      background-color: #c3e24c;
+      border-radius: 5px; }
+  .formularioContacto .consulta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .formularioContacto .consulta label {
+      text-align: center;
+      font-family: "Sanchez", serif;
+      color: #c3e24c; }
+    .formularioContacto .consulta input {
+      background-color: #6fa74c;
+      border-radius: 5px; }
+    .formularioContacto .consulta textarea {
+      background-color: #c3e24c;
+      border-radius: 5px; }
+
+/* ------------------------------------ . ----------------------------------- */
+/* ----------------------------- INICIAR SESION ----------------------------- */
+/* ------------------------------------ . ----------------------------------- */
+.pagInicioSes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .pagInicioSes img {
+    border: 5px solid transparent;
+    border-image: url(/images/fondoimgs.jpg) 30 round;
+    border-radius: 5px;
+    width: 50%; }
+  .pagInicioSes .formInicioSes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #124735ce;
+    border: solid 3px #126f3c;
+    border-radius: 5px;
+    width: 90%; }
+    .pagInicioSes .formInicioSes h2 {
+      text-align: center;
+      font-family: "Sanchez", serif;
+      color: #c3e24c; }
+    .pagInicioSes .formInicioSes .usuario {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 5px; }
+      .pagInicioSes .formInicioSes .usuario label {
+        text-align: center;
+        font-family: "Sanchez", serif;
+        color: #c3e24c; }
+      .pagInicioSes .formInicioSes .usuario input {
+        background-color: #c3e24c;
+        border-radius: 5px; }
+    .pagInicioSes .formInicioSes .contrasena {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 5px; }
+      .pagInicioSes .formInicioSes .contrasena label {
+        text-align: center;
+        font-family: "Sanchez", serif;
+        color: #c3e24c; }
+      .pagInicioSes .formInicioSes .contrasena input {
+        background-color: #c3e24c;
+        border-radius: 5px; }
+  .pagInicioSes .creaUsuario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .pagInicioSes .creaUsuario h3 {
+      text-align: center;
+      font-family: "Sanchez", serif;
+      color: #c3e24c; }
+    .pagInicioSes .creaUsuario h4 {
+      font-family: "Rubik Dirt", cursive;
+      font-size: 2rem;
+      color: #6fa74c; }
+    .pagInicioSes .creaUsuario h4 :hover {
+      color: #c3e24c; }
+
+/* ------------------------------------ . ----------------------------------- */
+/* ------------------------------ CREAR SESION ------------------------------ */
+/* ------------------------------------ . ----------------------------------- */
+.creaUsuarioCK {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .creaUsuarioCK h2 {
+    text-align: center;
+    font-family: "Sanchez", serif;
+    color: #c3e24c; }
+  .creaUsuarioCK p {
+    font-family: "Sanchez", serif;
+    color: #c3e24c;
+    background-color: #12473577;
+    border-radius: 5px;
+    width: 90%;
+    padding: 5px; }
+  .creaUsuarioCK .formularioCrearUsuario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #124735ce;
+    border: solid 3px #126f3c;
+    border-radius: 5px;
+    width: 90%; }
+    .creaUsuarioCK .formularioCrearUsuario form {
+      width: 100%; }
+      .creaUsuarioCK .formularioCrearUsuario form .enviar {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #c3e24c;
+        border-radius: 5px; }
+    .creaUsuarioCK .formularioCrearUsuario .name {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 5px; }
+      .creaUsuarioCK .formularioCrearUsuario .name label {
+        text-align: center;
+        font-family: "Sanchez", serif;
+        color: #c3e24c; }
+      .creaUsuarioCK .formularioCrearUsuario .name input {
+        background-color: #c3e24c;
+        border-radius: 5px; }
+    .creaUsuarioCK .formularioCrearUsuario .lastname {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 5px; }
+      .creaUsuarioCK .formularioCrearUsuario .lastname label {
+        text-align: center;
+        font-family: "Sanchez", serif;
+        color: #c3e24c; }
+      .creaUsuarioCK .formularioCrearUsuario .lastname input {
+        background-color: #c3e24c;
+        border-radius: 5px; }
+    .creaUsuarioCK .formularioCrearUsuario .fechaN {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 5px; }
+      .creaUsuarioCK .formularioCrearUsuario .fechaN label {
+        text-align: center;
+        font-family: "Sanchez", serif;
+        color: #c3e24c; }
+      .creaUsuarioCK .formularioCrearUsuario .fechaN input {
+        background-color: #c3e24c;
+        border-radius: 5px; }
+    .creaUsuarioCK .formularioCrearUsuario .emailU {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 5px; }
+      .creaUsuarioCK .formularioCrearUsuario .emailU label {
+        text-align: center;
+        font-family: "Sanchez", serif;
+        color: #c3e24c; }
+      .creaUsuarioCK .formularioCrearUsuario .emailU input {
+        background-color: #c3e24c;
+        border-radius: 5px; }
+    .creaUsuarioCK .formularioCrearUsuario .contrasenaU {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 5px; }
+      .creaUsuarioCK .formularioCrearUsuario .contrasenaU label {
+        text-align: center;
+        font-family: "Sanchez", serif;
+        color: #c3e24c; }
+      .creaUsuarioCK .formularioCrearUsuario .contrasenaU input {
+        background-color: #c3e24c;
+        border-radius: 5px; }
+    .creaUsuarioCK .formularioCrearUsuario .contrasenaDobleU {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 5px; }
+      .creaUsuarioCK .formularioCrearUsuario .contrasenaDobleU label {
+        text-align: center;
+        font-family: "Sanchez", serif;
+        color: #c3e24c; }
+      .creaUsuarioCK .formularioCrearUsuario .contrasenaDobleU input {
+        background-color: #c3e24c;
+        border-radius: 5px; }
+    .creaUsuarioCK .formularioCrearUsuario .genero {
+      display: flex;
+      justify-content: space-around;
+      padding: 5px;
+      text-align: center;
+      font-family: "Sanchez", serif;
+      color: #c3e24c; }
+    .creaUsuarioCK .formularioCrearUsuario .paisU {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 5px; }
+      .creaUsuarioCK .formularioCrearUsuario .paisU label {
+        text-align: center;
+        font-family: "Sanchez", serif;
+        color: #c3e24c; }
+      .creaUsuarioCK .formularioCrearUsuario .paisU input {
+        background-color: #c3e24c;
+        border-radius: 5px; }
+      .creaUsuarioCK .formularioCrearUsuario .paisU select {
+        background-color: #c3e24c;
+        border-radius: 5px; }
+    .creaUsuarioCK .formularioCrearUsuario .terminosyC {
+      text-align: center;
+      font-family: "Sanchez", serif;
+      color: #c3e24c;
+      display: flex;
+      justify-content: flex-start;
+      padding: 5px; }
+      .creaUsuarioCK .formularioCrearUsuario .terminosyC input {
+        flex: 1;
+        display: flex;
+        justify-content: flex-end;
+        background-color: #c3e24c;
+        border-radius: 5px; }
+
+/* ------------------------------------ . ----------------------------------- */
+/* --------------------------------- HEADER --------------------------------- */
+/* ------------------------------------ . ----------------------------------- */
+.headerNormal {
+  display: none; }
+
+.navMobile {
+  display: flex;
+  grid-column: 1 / 2;
+  grid-row: 1 / 2; }
+
+.botonMenu {
+  margin: 0 auto;
+  display: block;
+  width: 40px;
+  height: 36px;
+  padding: 0px 0px 20px 20px;
+  border-radius: 7px;
+  background: none;
+  color: #6fa74c;
+  cursor: pointer;
+  position: relative; }
+  .botonMenu span {
+    display: block;
+    width: 40px;
+    height: 4px;
+    background: #6fa74c;
+    margin-top: 7px; }
+
+label {
+  cursor: pointer; }
+
+#menu-toggle {
+  display: none; }
+
+#trickMenu {
+  display: none;
+  text-align: center;
+  background-image: url(/images/Fondotot1.jpg);
+  padding: 10px 0;
+  text-decoration: none; }
+  #trickMenu li a {
+    display: block;
+    padding: 10px 0;
+    color: #6fa74c;
+    font-size: 30px;
+    text-decoration: none;
+    font-family: "Permanent Marker", cursive; }
+
+#menu-toggle:checked + #trickMenu {
+  display: block;
+  position: absolute; }
+
+.headerMobile {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+  .headerMobile .tituloBotIni {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; }
+    .headerMobile .tituloBotIni .tituloPag {
+      font-size: 1rem; }
+    .headerMobile .tituloBotIni .tituloPagina {
+      margin: 20px 0px 0px 20px; }
+    .headerMobile .tituloBotIni .inicioSesionBoton h3 {
+      font-size: 1rem; }
+    .headerMobile .tituloBotIni .inicioSesionBot {
+      margin: 40px 20px 0px 0px; }
+
+/* ------------------------------------ . ----------------------------------- */
+/* --------------------------------- FOOTER --------------------------------- */
+/* ------------------------------------ . ----------------------------------- */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  background-image: url(/images/Fondotot1.jpg); }
+  .footer .contactoFooter {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; }
+    .footer .contactoFooter a {
+      color: #c3e24c;
+      padding: 15px; }
+    .footer .contactoFooter :hover {
+      color: #6fa74c; }
+  .footer .subir {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .footer .subir a {
+      color: #c3e24c; }
+    .footer .subir :hover {
+      color: #6fa74c; }
+  .footer .redes {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; }
+    .footer .redes a {
+      color: #c3e24c;
+      padding: 15px; }
+    .footer .redes :hover {
+      color: #6fa74c; }
+
+/* ------------------------------------ . ----------------------------------- */
+/* ---------------------------------- INDEX --------------------------------- */
+/* ------------------------------------ . ----------------------------------- */
+/* -------------------------------- NOTICIAS -------------------------------- */
+.news {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .news h2 {
+    font-family: "Bungee Inline", cursive;
+    background-image: url(/images/fondotitulos.jpg);
+    color: #124735;
+    border-radius: 5px;
+    text-align: center; }
+  .news ul {
+    list-style: none;
+    padding: 0;
+    margin: 0; }
+
+.new1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%; }
+  .new1 h3 {
+    text-align: center;
+    font-family: "Sanchez", serif;
+    color: #c3e24c;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%; }
+  .new1 img {
+    border: 5px solid transparent;
+    border-image: url(/images/fondoimgs.jpg) 30 round;
+    border-radius: 5px;
+    width: 95%; }
+  .new1 .adjuntoNota {
+    width: 90%;
+    font-family: "Sanchez", serif;
+    color: #c3e24c;
+    background-color: #124735ce;
+    border: solid 3px #126f3c;
+    border-radius: 5px; }
+  .new1 p {
+    width: 90%;
+    font-family: "Sanchez", serif;
+    color: #c3e24c;
+    background-color: #12473577;
+    border-radius: 5px; }
+  .new1 a {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; }
+
+.new2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .new2 h3 {
+    text-align: center;
+    font-family: "Sanchez", serif;
+    color: #c3e24c;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%; }
+  .new2 img {
+    width: 100%; }
+  .new2 a {
+    text-decoration: none; }
+    .new2 a p {
+      width: 90%;
+      font-family: "Sanchez", serif;
+      color: #c3e24c;
+      background-color: #12473577;
+      border-radius: 5px;
+      text-align: center; }
+
+/* ----------------------- ALGUNOS VIDEOS INTERESANTES ---------------------- */
+.algunosVideosInteresantes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .algunosVideosInteresantes h2 {
+    font-family: "Bungee Inline", cursive;
+    background-image: url(/images/fondotitulos.jpg);
+    color: #124735;
+    border-radius: 5px;
+    text-align: center;
+    flex-wrap: wrap;
+    width: 80%; }
+  .algunosVideosInteresantes ul {
+    list-style: none;
+    padding: 0;
+    margin: 0; }
+
+.videosInteresantes ul li h3 {
+  text-align: center;
+  font-family: "Sanchez", serif;
+  color: #c3e24c; }
+
+.videosInteresantes ul li iframe {
+  width: 95%;
+  height: 500px; }
+
+/* ------------------------------------ . ----------------------------------- */
+/* ------------------------------- INFORMACION ------------------------------ */
+/* ------------------------------------ . ----------------------------------- */
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.mariqes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .mariqes h2 {
+    font-family: "Bungee Inline", cursive;
+    background-image: url(/images/fondotitulos.jpg);
+    color: #124735;
+    border-radius: 5px;
+    text-align: center; }
+  .mariqes .imagenesInfo1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .mariqes .imagenesInfo1 img {
+      border: 5px solid transparent;
+      border-image: url(/images/fondoimgs.jpg) 30 round;
+      border-radius: 5px;
+      width: 95%; }
+  .mariqes p {
+    font-family: "Sanchez", serif;
+    color: #c3e24c;
+    background-color: #12473577;
+    border-radius: 5px;
+    width: 90%; }
+
+.history {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .history h2 {
+    font-family: "Bungee Inline", cursive;
+    background-image: url(/images/fondotitulos.jpg);
+    color: #124735;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 10px; }
+  .history img {
+    border: 5px solid transparent;
+    border-image: url(/images/fondoimgs.jpg) 30 round;
+    border-radius: 5px;
+    width: 95%; }
+  .history p {
+    font-family: "Sanchez", serif;
+    color: #c3e24c;
+    background-color: #12473577;
+    border-radius: 5px;
+    width: 90%; }
+
+.usos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .usos h2 {
+    font-family: "Bungee Inline", cursive;
+    background-image: url(/images/fondotitulos.jpg);
+    color: #124735;
+    border-radius: 5px;
+    text-align: center; }
+  .usos .imagenesInfo2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .usos img {
+    border: 5px solid transparent;
+    border-image: url(/images/fondoimgs.jpg) 30 round;
+    border-radius: 5px;
+    width: 95%; }
+  .usos p {
+    font-family: "Sanchez", serif;
+    color: #c3e24c;
+    background-color: #12473577;
+    border-radius: 5px;
+    width: 90%; }
+
+/* ------------------------------------ . ----------------------------------- */
+/* --------------------------------- CULTIVO -------------------------------- */
+/* ------------------------------------ . ----------------------------------- */
+.cultiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .cultiv h2 {
+    font-family: "Bungee Inline", cursive;
+    background-image: url(/images/fondotitulos.jpg);
+    color: #124735;
+    border-radius: 5px;
+    text-align: center; }
+  .cultiv img {
+    border: 5px solid transparent;
+    border-image: url(/images/fondoimgs.jpg) 30 round;
+    border-radius: 5px;
+    width: 95%; }
+  .cultiv p {
+    font-family: "Sanchez", serif;
+    color: #c3e24c;
+    background-color: #12473577;
+    border-radius: 5px;
+    width: 90%; }
+
+.outdoor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .outdoor h2 {
+    font-family: "Bungee Inline", cursive;
+    background-image: url(/images/fondotitulos.jpg);
+    color: #124735;
+    border-radius: 5px;
+    text-align: center; }
+  .outdoor img {
+    border: 5px solid transparent;
+    border-image: url(/images/fondoimgs.jpg) 30 round;
+    border-radius: 5px;
+    width: 95%; }
+  .outdoor p {
+    font-family: "Sanchez", serif;
+    color: #c3e24c;
+    background-color: #12473577;
+    border-radius: 5px;
+    width: 90%; }
+
+.indoor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .indoor h2 {
+    font-family: "Bungee Inline", cursive;
+    background-image: url(/images/fondotitulos.jpg);
+    color: #124735;
+    border-radius: 5px;
+    text-align: center; }
+  .indoor img {
+    border: 5px solid transparent;
+    border-image: url(/images/fondoimgs.jpg) 30 round;
+    border-radius: 5px;
+    width: 95%; }
+  .indoor p {
+    font-family: "Sanchez", serif;
+    color: #c3e24c;
+    background-color: #12473577;
+    border-radius: 5px;
+    width: 90%; }
+
+.hidro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .hidro h2 {
+    font-family: "Bungee Inline", cursive;
+    background-image: url(/images/fondotitulos.jpg);
+    color: #124735;
+    border-radius: 5px;
+    text-align: center; }
+  .hidro img {
+    border: 5px solid transparent;
+    border-image: url(/images/fondoimgs.jpg) 30 round;
+    border-radius: 5px;
+    width: 95%; }
+  .hidro p {
+    font-family: "Sanchez", serif;
+    color: #c3e24c;
+    background-color: #12473577;
+    border-radius: 5px;
+    width: 90%; }
+
+/* ------------------------------------ . ----------------------------------- */
+/* ------------------------------- VARIEDADES ------------------------------- */
+/* ------------------------------------ . ----------------------------------- */
+/* ------------------------------ HALL OF FAME ------------------------------ */
+.hall {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%; }
+  .hall h2 {
+    font-family: "Bungee Inline", cursive;
+    background-image: url(/images/fondotitulos.jpg);
+    color: #124735;
+    border-radius: 5px;
+    text-align: center; }
+  .hall img {
+    border: 5px solid transparent;
+    border-image: url(/images/fondoimgs.jpg) 30 round;
+    border-radius: 5px;
+    width: 95%; }
+  .hall p {
+    font-family: "Sanchez", serif;
+    color: #c3e24c;
+    background-color: #12473577;
+    border-radius: 5px;
+    width: 90%; }
+  .hall ol {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    width: 100%; }
+    .hall ol li {
+      color: #126f3c;
+      font-family: "Aclonica", sans-serif; }
+
+/* --------------------------------- TOPS 10 -------------------------------- */
+.top10 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%; }
+  .top10 h2 {
+    font-family: "Bungee Inline", cursive;
+    background-image: url(/images/fondotitulos.jpg);
+    color: #124735;
+    border-radius: 5px;
+    text-align: center; }
+  .top10 img {
+    border: 5px solid transparent;
+    border-image: url(/images/fondoimgs.jpg) 30 round;
+    border-radius: 5px;
+    width: 95%; }
+
+.sativas10 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%; }
+  .sativas10 img {
+    border: 5px solid transparent;
+    border-image: url(/images/fondoimgs.jpg) 30 round;
+    border-radius: 5px;
+    width: 95%; }
+  .sativas10 h3 {
+    text-align: center;
+    font-family: "Sanchez", serif;
+    color: #c3e24c; }
+  .sativas10 ol {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0; }
+    .sativas10 ol li {
+      color: #126f3c;
+      font-family: "Aclonica", sans-serif; }
+
+.indicas10 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%; }
+  .indicas10 img {
+    border: 5px solid transparent;
+    border-image: url(/images/fondoimgs.jpg) 30 round;
+    border-radius: 5px;
+    width: 95%; }
+  .indicas10 h3 {
+    text-align: center;
+    font-family: "Sanchez", serif;
+    color: #c3e24c; }
+  .indicas10 ol {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0; }
+    .indicas10 ol li {
+      color: #126f3c;
+      font-family: "Aclonica", sans-serif; }
+
+/* ------------------------------------ . ----------------------------------- */
+/* --------------------------------- E-Shop --------------------------------- */
+/* ------------------------------------ . ----------------------------------- */
+.eshop {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .eshop ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%; }
+  .eshop li {
+    font-family: "Aclonica", sans-serif;
+    color: #126f3c;
+    font-size: 1.5rem;
+    text-align: center; }
+  .eshop input {
+    background-color: #c3e24c;
+    border-radius: 5px;
+    font-family: "Rubik Dirt", cursive; }
+  .eshop .semillas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px; }
+    .eshop .semillas h2 {
+      font-family: "Bungee Inline", cursive;
+      background-image: url(/images/fondotitulos.jpg);
+      color: #124735;
+      border-radius: 5px;
+      text-align: center; }
+    .eshop .semillas img {
+      border: 5px solid transparent;
+      border-image: url(/images/fondoimgs.jpg) 30 round;
+      border-radius: 5px;
+      width: 95%; }
+  .eshop .parafernalias {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px; }
+    .eshop .parafernalias h2 {
+      font-family: "Bungee Inline", cursive;
+      background-image: url(/images/fondotitulos.jpg);
+      color: #124735;
+      border-radius: 5px;
+      text-align: center; }
+    .eshop .parafernalias #Grinder img {
+      width: 95%; }
+    .eshop .parafernalias img {
+      border: 5px solid transparent;
+      border-image: url(/images/fondoimgs.jpg) 30 round;
+      border-radius: 5px;
+      width: 95%; }
+    .eshop .parafernalias .bongui {
+      border: 5px solid transparent;
+      border-image: url(/images/fondoimgs.jpg) 30 round;
+      border-radius: 5px;
+      width: 95%; }
+  .eshop .fertilizantes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px; }
+    .eshop .fertilizantes h2 {
+      font-family: "Bungee Inline", cursive;
+      background-image: url(/images/fondotitulos.jpg);
+      color: #124735;
+      border-radius: 5px;
+      text-align: center; }
+    .eshop .fertilizantes img {
+      border: 5px solid transparent;
+      border-image: url(/images/fondoimgs.jpg) 30 round;
+      border-radius: 5px;
+      width: 95%; }
+  .eshop .cbdProd {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px; }
+    .eshop .cbdProd h2 {
+      font-family: "Bungee Inline", cursive;
+      background-image: url(/images/fondotitulos.jpg);
+      color: #124735;
+      border-radius: 5px;
+      text-align: center; }
+    .eshop .cbdProd h3 {
+      text-align: center;
+      font-family: "Sanchez", serif;
+      color: #c3e24c; }
+    .eshop .cbdProd p {
+      font-family: "Sanchez", serif;
+      color: #c3e24c;
+      background-color: #12473577;
+      border-radius: 5px; }
+    .eshop .cbdProd img {
+      border: 5px solid transparent;
+      border-image: url(/images/fondoimgs.jpg) 30 round;
+      border-radius: 5px;
+      width: 95%; }
+
+/* ------------------------------------ . ----------------------------------- */
+/* -------------------------------- CONTACTO -------------------------------- */
+/* ------------------------------------ . ----------------------------------- */
+.quienesSomos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .quienesSomos h2 {
+    font-family: "Bungee Inline", cursive;
+    background-image: url(/images/fondotitulos.jpg);
+    color: #124735;
+    border-radius: 5px;
+    text-align: center; }
+  .quienesSomos p {
+    font-family: "Sanchez", serif;
+    color: #c3e24c;
+    background-color: #12473577;
+    border-radius: 5px;
+    width: 90%; }
+
+.datosMapa {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .datosMapa .datos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 98%; }
+    .datosMapa .datos h3 {
+      text-align: center;
+      font-family: "Sanchez", serif;
+      color: #c3e24c; }
+    .datosMapa .datos p {
+      background-color: #124735ce;
+      border: solid 3px #126f3c;
+      border-radius: 5px;
+      width: 98%; }
+  .datosMapa .mapa {
+    border: 5px solid transparent;
+    border-image: url(/images/fondoimgs.jpg) 30 round;
+    border-radius: 5px;
+    width: 95%;
+    height: 100%;
+    min-height: 300px;
+    margin-bottom: 10px; }
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .formulario h3 {
+    text-align: center;
+    font-family: "Sanchez", serif;
+    color: #c3e24c;
+    font-size: 1rem; }
+
+.formularioContacto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #124735ce;
+  border: solid 3px #126f3c;
+  border-radius: 5px;
+  width: 90%; }
+  .formularioContacto h2 {
+    text-align: center;
+    font-family: "Sanchez", serif;
+    color: #c3e24c; }
+  .formularioContacto p {
+    font-family: "Sanchez", serif;
+    color: #c3e24c;
+    background-color: #12473577;
+    border-radius: 5px; }
+  .formularioContacto .nombreApellido {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px; }
+    .formularioContacto .nombreApellido label {
+      text-align: center;
+      font-family: "Sanchez", serif;
+      color: #c3e24c; }
+    .formularioContacto .nombreApellido input {
+      background-color: #c3e24c;
+      border-radius: 5px; }
+  .formularioContacto .email {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px; }
+    .formularioContacto .email label {
+      text-align: center;
+      font-family: "Sanchez", serif;
+      color: #c3e24c; }
+    .formularioContacto .email input {
+      background-color: #c3e24c;
+      border-radius: 5px; }
+  .formularioContacto .pais {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px; }
+    .formularioContacto .pais label {
+      text-align: center;
+      font-family: "Sanchez", serif;
+      color: #c3e24c; }
+    .formularioContacto .pais input {
+      background-color: #c3e24c;
+      border-radius: 5px; }
+    .formularioContacto .pais select {
+      background-color: #c3e24c;
+      border-radius: 5px; }
+  .formularioContacto .consulta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .formularioContacto .consulta label {
+      text-align: center;
+      font-family: "Sanchez", serif;
+      color: #c3e24c; }
+    .formularioContacto .consulta input {
+      background-color: #6fa74c;
+      border-radius: 5px; }
+    .formularioContacto .consulta textarea {
+      background-color: #c3e24c;
+      border-radius: 5px; }
+
+/* ------------------------------------ . ----------------------------------- */
+/* ----------------------------- INICIAR SESION ----------------------------- */
+/* ------------------------------------ . ----------------------------------- */
+.pagInicioSes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .pagInicioSes img {
+    border: 5px solid transparent;
+    border-image: url(/images/fondoimgs.jpg) 30 round;
+    border-radius: 5px;
+    width: 50%; }
+  .pagInicioSes .formInicioSes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #124735ce;
+    border: solid 3px #126f3c;
+    border-radius: 5px;
+    width: 90%; }
+    .pagInicioSes .formInicioSes h2 {
+      text-align: center;
+      font-family: "Sanchez", serif;
+      color: #c3e24c; }
+    .pagInicioSes .formInicioSes .usuario {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 5px; }
+      .pagInicioSes .formInicioSes .usuario label {
+        text-align: center;
+        font-family: "Sanchez", serif;
+        color: #c3e24c; }
+      .pagInicioSes .formInicioSes .usuario input {
+        background-color: #c3e24c;
+        border-radius: 5px; }
+    .pagInicioSes .formInicioSes .contrasena {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 5px; }
+      .pagInicioSes .formInicioSes .contrasena label {
+        text-align: center;
+        font-family: "Sanchez", serif;
+        color: #c3e24c; }
+      .pagInicioSes .formInicioSes .contrasena input {
+        background-color: #c3e24c;
+        border-radius: 5px; }
+  .pagInicioSes .creaUsuario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .pagInicioSes .creaUsuario h3 {
+      text-align: center;
+      font-family: "Sanchez", serif;
+      color: #c3e24c; }
+    .pagInicioSes .creaUsuario h4 {
+      font-family: "Rubik Dirt", cursive;
+      font-size: 2rem;
+      color: #6fa74c; }
+    .pagInicioSes .creaUsuario h4 :hover {
+      color: #c3e24c; }
+
+/* ------------------------------------ . ----------------------------------- */
+/* ------------------------------ CREAR SESION ------------------------------ */
+/* ------------------------------------ . ----------------------------------- */
+.creaUsuarioCK {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .creaUsuarioCK h2 {
+    text-align: center;
+    font-family: "Sanchez", serif;
+    color: #c3e24c; }
+  .creaUsuarioCK p {
+    font-family: "Sanchez", serif;
+    color: #c3e24c;
+    background-color: #12473577;
+    border-radius: 5px;
+    width: 90%;
+    padding: 5px; }
+  .creaUsuarioCK .formularioCrearUsuario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #124735ce;
+    border: solid 3px #126f3c;
+    border-radius: 5px;
+    width: 90%; }
+    .creaUsuarioCK .formularioCrearUsuario form {
+      width: 100%; }
+      .creaUsuarioCK .formularioCrearUsuario form .enviar {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #c3e24c;
+        border-radius: 5px; }
+    .creaUsuarioCK .formularioCrearUsuario .name {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 5px; }
+      .creaUsuarioCK .formularioCrearUsuario .name label {
+        text-align: center;
+        font-family: "Sanchez", serif;
+        color: #c3e24c; }
+      .creaUsuarioCK .formularioCrearUsuario .name input {
+        background-color: #c3e24c;
+        border-radius: 5px; }
+    .creaUsuarioCK .formularioCrearUsuario .lastname {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 5px; }
+      .creaUsuarioCK .formularioCrearUsuario .lastname label {
+        text-align: center;
+        font-family: "Sanchez", serif;
+        color: #c3e24c; }
+      .creaUsuarioCK .formularioCrearUsuario .lastname input {
+        background-color: #c3e24c;
+        border-radius: 5px; }
+    .creaUsuarioCK .formularioCrearUsuario .fechaN {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 5px; }
+      .creaUsuarioCK .formularioCrearUsuario .fechaN label {
+        text-align: center;
+        font-family: "Sanchez", serif;
+        color: #c3e24c; }
+      .creaUsuarioCK .formularioCrearUsuario .fechaN input {
+        background-color: #c3e24c;
+        border-radius: 5px; }
+    .creaUsuarioCK .formularioCrearUsuario .emailU {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 5px; }
+      .creaUsuarioCK .formularioCrearUsuario .emailU label {
+        text-align: center;
+        font-family: "Sanchez", serif;
+        color: #c3e24c; }
+      .creaUsuarioCK .formularioCrearUsuario .emailU input {
+        background-color: #c3e24c;
+        border-radius: 5px; }
+    .creaUsuarioCK .formularioCrearUsuario .contrasenaU {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 5px; }
+      .creaUsuarioCK .formularioCrearUsuario .contrasenaU label {
+        text-align: center;
+        font-family: "Sanchez", serif;
+        color: #c3e24c; }
+      .creaUsuarioCK .formularioCrearUsuario .contrasenaU input {
+        background-color: #c3e24c;
+        border-radius: 5px; }
+    .creaUsuarioCK .formularioCrearUsuario .contrasenaDobleU {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 5px; }
+      .creaUsuarioCK .formularioCrearUsuario .contrasenaDobleU label {
+        text-align: center;
+        font-family: "Sanchez", serif;
+        color: #c3e24c; }
+      .creaUsuarioCK .formularioCrearUsuario .contrasenaDobleU input {
+        background-color: #c3e24c;
+        border-radius: 5px; }
+    .creaUsuarioCK .formularioCrearUsuario .genero {
+      display: flex;
+      justify-content: space-around;
+      padding: 5px;
+      text-align: center;
+      font-family: "Sanchez", serif;
+      color: #c3e24c; }
+    .creaUsuarioCK .formularioCrearUsuario .paisU {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 5px; }
+      .creaUsuarioCK .formularioCrearUsuario .paisU label {
+        text-align: center;
+        font-family: "Sanchez", serif;
+        color: #c3e24c; }
+      .creaUsuarioCK .formularioCrearUsuario .paisU input {
+        background-color: #c3e24c;
+        border-radius: 5px; }
+      .creaUsuarioCK .formularioCrearUsuario .paisU select {
+        background-color: #c3e24c;
+        border-radius: 5px; }
+    .creaUsuarioCK .formularioCrearUsuario .terminosyC {
+      text-align: center;
+      font-family: "Sanchez", serif;
+      color: #c3e24c;
+      display: flex;
+      justify-content: flex-start;
+      padding: 5px; }
+      .creaUsuarioCK .formularioCrearUsuario .terminosyC input {
+        flex: 1;
+        display: flex;
+        justify-content: flex-end;
+        background-color: #c3e24c;
+        border-radius: 5px; }
+
 @media (min-width: 0px) and (max-width: 480px) {
   .body {
-    min-width: 0px;
-    max-width: 480px;
+    min-width: 481px;
+    max-width: 768px;
     margin: 0px;
     border: 0px;
     width: 100%; } }
@@ -640,7 +1953,8 @@ label {
 
 .body {
   background-image: url(/images/Fondo2.jpg);
-  height: 100%; }
+  height: 100%;
+  width: 100%; }
 
 .li {
   list-style: none;
@@ -1087,84 +2401,3 @@ label {
     .indicas10 ol li {
       color: #126f3c;
       font-family: "Aclonica", sans-serif; }
-
-/* ------------------------------------ . ----------------------------------- */
-/* -------------------------------- CONTACTO -------------------------------- */
-/* ------------------------------------ . ----------------------------------- */
-.quienesSomos {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; }
-  .quienesSomos h2 {
-    font-family: "Bungee Inline", cursive;
-    background-image: url(/images/fondotitulos.jpg);
-    color: #124735;
-    border-radius: 5px;
-    text-align: center; }
-  .quienesSomos img {
-    border: 5px solid transparent;
-    border-image: url(/images/fondoimgs.jpg) 30 round;
-    border-radius: 5px; }
-  .quienesSomos p {
-    font-family: "Sanchez", serif;
-    color: #c3e24c;
-    background-color: #12473577;
-    border-radius: 5px; }
-
-.datosMapa {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; }
-  .datosMapa .datos {
-    display: flex;
-    justify-content: space-around;
-    align-items: center; }
-    .datosMapa .datos h3 {
-      text-align: center;
-      font-family: "Sanchez", serif;
-      color: #c3e24c; }
-    .datosMapa .datos p {
-      font-family: "Sanchez", serif;
-      color: #c3e24c;
-      background-color: #12473577;
-      border-radius: 5px; }
-  .datosMapa .mapa {
-    border: 5px solid transparent;
-    border-image: url(/images/fondoimgs.jpg) 30 round;
-    border-radius: 5px; }
-
-.formularioContacto {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; }
-  .formularioContacto h3 {
-    font-family: "Bungee Inline", cursive;
-    background-image: url(/images/fondotitulos.jpg);
-    color: #124735;
-    border-radius: 5px;
-    text-align: center; }
-  .formularioContacto p {
-    font-family: "Sanchez", serif;
-    color: #c3e24c;
-    background-color: #12473577;
-    border-radius: 5px; }
-
-/* ------------------------------------ . ----------------------------------- */
-/* --------------------------------- E-Shop --------------------------------- */
-/* ------------------------------------ . ----------------------------------- */
-/* -------------------------------- SEMILLAS -------------------------------- */
-.semillas {
-  display: flex; }
-  .semillas h2 {
-    font-family: "Bungee Inline", cursive;
-    background-image: url(/images/fondotitulos.jpg);
-    color: #124735;
-    border-radius: 5px;
-    text-align: center; }
-  .semillas img {
-    border: 5px solid transparent;
-    border-image: url(/images/fondoimgs.jpg) 30 round;
-    border-radius: 5px; }

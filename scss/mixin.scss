@@ -31,3 +31,25 @@
     background-color: #12473577;
     border-radius: 5px;
 }
+
+@mixin encuadre {
+    background-color: #124735ce;
+    border: solid 3px $color3;
+    border-radius: 5px;
+}
+
+@mixin composicionFormulario {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5px;
+
+        label {
+            @include subtitulos;
+        }
+
+        input {
+            background-color: $color5;
+            border-radius: 5px;
+        }
+    }

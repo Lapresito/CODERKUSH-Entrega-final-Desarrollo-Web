@@ -1,8 +1,8 @@
 @mixin mediamobile {
     @media (min-width: 0px) and (max-width: 480px) {
         .body {
-            min-width: 0px;
-            max-width: 480px;
+            min-width: 481px;
+            max-width: 768px;
             margin: 0px;
             border: 0px;
             width: 100%;

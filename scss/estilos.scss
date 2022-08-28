@@ -1,6 +1,7 @@
 @import "./variables.scss";
 @import "./mixin.scss";
 @import "./mediamobile.scss";
+@import"./mediatablet.scss";
 @include mediamobile;
 
 * {
@@ -12,6 +13,7 @@
 .body {
     background-image: url(/images/Fondo2.jpg);
     height: 100%;
+    width: 100%;
 }
 .li{
     list-style: none;
@@ -494,76 +496,3 @@
     }
 }
 
-
-
-/* ------------------------------------ . ----------------------------------- */
-/* -------------------------------- CONTACTO -------------------------------- */
-/* ------------------------------------ . ----------------------------------- */
-
-// Quienes Somos
-.quienesSomos {
-    @include estructuraColCen;
-
-    h2 {
-        @include titulos;
-    }
-
-    img {
-        @include imagenes;
-    }
-
-    p {
-        @include texto;
-    }
-}
-
-// Info y ubicacion
-.datosMapa {
-    @include estructuraColCen;
-
-    .datos {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-
-        h3 {
-            @include subtitulos;
-        }
-
-        p {
-            @include texto;
-        }
-    }
-
-    .mapa {
-        @include imagenes;
-    }
-}
-
-// Formulario de contacto
-.formularioContacto {
-    @include estructuraColCen;
-
-    h3 {
-        @include titulos;
-    }
-
-    p {
-        @include texto;
-    }
-}
-
-/* ------------------------------------ . ----------------------------------- */
-/* --------------------------------- E-Shop --------------------------------- */
-/* ------------------------------------ . ----------------------------------- */
-
-/* -------------------------------- SEMILLAS -------------------------------- */
-.semillas{
-    display: flex;
-    h2{
-        @include titulos;
-    }
-    img{
-        @include imagenes;
-    }
-}
