@@ -352,7 +352,8 @@
                 @include textoL;
             }
         }
-         /* ------------------------------------ . ----------------------------------- */
+
+        /* ------------------------------------ . ----------------------------------- */
         /* ------------------------------- VARIEDADES ------------------------------- */
         /* ------------------------------------ . ----------------------------------- */
 
@@ -459,25 +460,27 @@
                 }
             }
         }
+
         /* ------------------------------------ . ----------------------------------- */
         /* --------------------------------- E-Shop --------------------------------- */
         /* ------------------------------------ . ----------------------------------- */
         .eshop {
             @include estructuraColCen;
 
-            ul {
-                list-style: none;
-                padding: 0px;
-                margin: 0px;
-                @include estructuraColCen;
-                width: 100%;
-            }
-
             li {
+                list-style: none;
+                padding: 0;
+                margin: 0;
                 font-family: $font3;
                 color: $color3;
                 font-size: 1.5rem;
                 text-align: center;
+            }
+
+            ul {
+                list-style: none;
+                padding: 0;
+                margin: 0;
             }
 
             input {
@@ -488,16 +491,37 @@
 
             // Semillas
             .semillas {
-                display: flex;
+                @include estructuraColCen;
                 margin-top: 10px;
+                width: 100%;
 
                 h2 {
                     @include titulos;
                 }
 
-                img {
-                    @include imagenes;
-                    width: 95%;
+                #imgSemillas {
+                    @include imagenesL;
+                    max-height: 300px;
+                }
+
+                form {
+                    @include estructuraColCen;
+
+                    ul {
+                        display: flex;
+                        justify-content: space-around;
+
+                        li {
+                            @include estructuraColCen;
+                            padding: 20px;
+
+                            .imgsem {
+                                width: 300px;
+                                height: 200px;
+                                @include imagenes;
+                            }
+                        }
+                    }
                 }
             }
 
@@ -505,25 +529,34 @@
             .parafernalias {
                 @include estructuraColCen;
                 margin-top: 10px;
+                width: 100%;
 
                 h2 {
                     @include titulos;
                 }
 
-                #Grinder {
-                    img {
-                        width: 95%;
+                #imgParafernalias {
+                    @include imagenesL;
+                }
+
+                form {
+                    @include estructuraColCen;
+
+                    ul {
+                        display: flex;
+                        justify-content: space-around;
+
+                        li {
+                            @include estructuraColCen;
+                            padding: 20px;
+
+                            .imgpar {
+                                width: 300px;
+                                height: 200px;
+                                @include imagenes;
+                            }
+                        }
                     }
-                }
-
-                img {
-                    @include imagenes;
-                    width: 95%
-                }
-
-                .bongui {
-                    @include imagenes;
-                    width: 95%;
                 }
             }
 
@@ -531,14 +564,34 @@
             .fertilizantes {
                 @include estructuraColCen;
                 margin-top: 10px;
+                width: 100%;
 
                 h2 {
                     @include titulos;
                 }
 
-                img {
-                    @include imagenes;
-                    width: 95%;
+                #imgFertilizantes {
+                    @include imagenesL;
+                }
+
+                form {
+                    @include estructuraColCen;
+
+                    ul {
+                        display: flex;
+                        justify-content: space-around;
+
+                        li {
+                            @include estructuraColCen;
+                            padding: 20px;
+
+                            .imgfer {
+                                width: 300px;
+                                height: 200px;
+                                @include imagenes;
+                            }
+                        }
+                    }
                 }
             }
 
@@ -546,6 +599,7 @@
             .cbdProd {
                 @include estructuraColCen;
                 margin-top: 10px;
+                width: 100%;
 
                 h2 {
                     @include titulos;
@@ -556,12 +610,321 @@
                 }
 
                 p {
-                    @include texto;
+                    @include textoL;
                 }
 
-                img {
-                    @include imagenes;
-                    width: 95%;
+                form {
+                    @include estructuraColCen;
+
+                    ul {
+                        display: flex;
+                        justify-content: space-around;
+
+                        li {
+                            @include estructuraColCen;
+                            padding: 20px;
+
+                            .imgcbd {
+                                width: 300px;
+                                height: 200px;
+                                @include imagenes;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        /* ------------------------------------ . ----------------------------------- */
+        /* -------------------------------- CONTACTO -------------------------------- */
+        /* ------------------------------------ . ----------------------------------- */
+
+        // Quienes Somos
+        .quienesSomos {
+            @include estructuraColCen;
+
+            h2 {
+                @include titulos;
+                margin-top: 20px;
+            }
+
+            p {
+                @include texto;
+                width: 90%;
+            }
+        }
+
+        // Info y ubicacion
+        .datosMapa {
+            @include estructuraColCen;
+
+            .datos {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                width: 98%;
+                
+
+                h3 {
+                    @include subtitulos;
+                }
+
+                p {
+                    @include encuadre;
+                    @include texto;
+                    width: 100%;
+                    padding: 5px;
+                }
+            }
+
+            .mapa {
+                @include imagenes;
+                width: 80%;
+                height: 100%;
+                min-height: 500px;
+                margin-bottom: 10px;
+            }
+        }
+
+        // Formulario de contacto
+        .formulario {
+            @include estructuraColCen;
+
+            h3 {
+                @include subtitulos;
+                font-size: 1rem;
+            }
+        }
+
+        .formularioContacto {
+            @include estructuraColCen;
+            @include encuadre;
+            width: 90%;
+            max-width: 850px;
+
+            h2 {
+                @include subtitulos;
+            }
+
+            p {
+                @include textoL;
+            }
+
+            .nombreApellido {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 5px;
+
+                label {
+                    @include subtitulos;
+                }
+
+                input {
+                    background-color: $color5;
+                    border-radius: 5px;
+                }
+            }
+
+            .email {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 5px;
+
+                label {
+                    @include subtitulos;
+                }
+
+                input {
+                    background-color: $color5;
+                    border-radius: 5px;
+                }
+            }
+
+            .pais {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 5px;
+
+                label {
+                    @include subtitulos;
+                }
+
+                input {
+                    background-color: $color5;
+                    border-radius: 5px;
+                }
+
+                select {
+                    background-color: $color5;
+                    border-radius: 5px;
+                }
+            }
+
+            .consulta {
+                @include estructuraColCen;
+
+                label {
+                    @include subtitulos;
+                }
+
+                input {
+                    background-color: $color4;
+                    border-radius: 5px;
+                }
+
+                textarea {
+                    background-color: $color5;
+                    border-radius: 5px;
+                }
+            }
+        }
+        /* ------------------------------------ . ----------------------------------- */
+        /* ----------------------------- INICIAR SESION ----------------------------- */
+        /* ------------------------------------ . ----------------------------------- */
+
+        .pagInicioSes {
+            @include estructuraColCen;
+
+            img {
+                @include imagenes;
+                width: 100%;
+                max-width: 500px;
+                height: 100%;
+                max-height: 400px;
+            }
+
+            .formInicioSes {
+                @include estructuraColCen;
+                @include encuadre;
+                width: 90%;
+                max-width: 400px;
+
+                h2 {
+                    @include subtitulos;
+                }
+
+                .usuario {
+                    @include composicionFormulario;
+                }
+
+                .contrasena {
+                    @include composicionFormulario;
+                }
+            }
+
+            .creaUsuario {
+                @include estructuraColCen;
+
+                h3 {
+                    @include subtitulos;
+                }
+
+                h4 {
+                    font-family: $font2;
+                    font-size: 2rem;
+                    color: $color4;
+                }
+
+                h4 :hover {
+                    color: $color5;
+                }
+            }
+        }
+        /* ------------------------------------ . ----------------------------------- */
+        /* ------------------------------ CREAR SESION ------------------------------ */
+        /* ------------------------------------ . ----------------------------------- */
+
+        .creaUsuarioCK {
+            @include estructuraColCen;
+
+            h2 {
+                @include subtitulos;
+            }
+
+            p {
+                @include texto;
+                width: 90%;
+                padding: 5px;
+            }
+            h4{
+                @include subtitulos;
+            }
+
+            .formularioCrearUsuario {
+                @include estructuraColCen;
+                @include encuadre;
+                width: 90%;
+
+                form {
+                    width: 100%;
+
+                    .enviar {
+                        flex: 1;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        background-color: $color5;
+                        border-radius: 5px;
+                    }
+                }
+
+                .name {
+                    @include composicionFormulario;
+                }
+
+                .lastname {
+                    @include composicionFormulario;
+                }
+
+                .fechaN {
+                    @include composicionFormulario;
+                }
+
+                .emailU {
+                    @include composicionFormulario;
+                }
+
+                .contrasenaU {
+                    @include composicionFormulario;
+                }
+
+                .contrasenaDobleU {
+                    @include composicionFormulario;
+                }
+
+                .genero {
+                    display: flex;
+                    justify-content: space-around;
+                    padding: 5px;
+                    @include subtitulos;
+                }
+
+                .paisU {
+                    @include composicionFormulario;
+
+                    select {
+                        background-color: $color5;
+                        border-radius: 5px;
+                    }
+
+                }
+
+                .terminosyC {
+                    @include subtitulos;
+                    display: flex;
+                    justify-content: flex-start;
+                    padding: 5px;
+
+                    input {
+                        flex: 1;
+                        display: flex;
+                        justify-content: flex-end;
+                        background-color: $color5;
+                        border-radius: 5px;
+                    }
                 }
             }
         }
