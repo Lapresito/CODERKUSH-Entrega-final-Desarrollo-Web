@@ -1,0 +1,570 @@
+@mixin medialaptop {
+    @media (min-width: 769px) and (max-width: 1279px) {
+        .body {
+            min-width: 769px;
+            max-width: 1279px;
+            margin: 0px;
+            border: 0px;
+            width: 100%;
+        }
+
+
+        .header {
+            flex: 1;
+            width: 100%;
+
+            .headerMobile {
+                display: none;
+            }
+
+            .headerNormal {
+                width: 100%;
+                @include estructuraColCen;
+                height: 100%;
+
+                .tituloBotonInicioSesion {
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    .titulopag {
+                        margin: 20px 0px 20px 20px;
+
+                        h1 {
+                            font-size: 3.5rem;
+                        }
+                    }
+
+                    .inicioSesionBoton {
+                        a {
+                            margin: 0px 20px 0px 0px;
+
+                            h3 {
+                                font-size: 1rem;
+                            }
+                        }
+                    }
+
+                }
+
+                .barra {
+                    flex: 1;
+
+                    .nav {
+                        display: flex;
+                        justify-content: space-around;
+                        align-self: flex-end;
+
+
+                        li {
+                            list-style-type: none;
+
+                            a {
+                                text-decoration: none;
+                                list-style: none;
+                                font-family: $font5;
+                                color: $color5;
+                                padding: 20px;
+                                font-size: 1.5rem;
+                            }
+
+                            :hover {
+                                color: $color4;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        /* ------------------------------------ . ----------------------------------- */
+        /* --------------------------------- FOOTER --------------------------------- */
+        /* ------------------------------------ . ----------------------------------- */
+
+        .footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            height: 80px;
+            background-image: url(/images/Fondotot1.jpg);
+
+            .contactoFooter {
+                flex: 1;
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+
+                a {
+                    color: $color5;
+                    padding: 15px;
+                }
+
+                :hover {
+                    color: $color4;
+                }
+
+            }
+
+            .subir {
+                flex: 1;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                a {
+                    color: $color5;
+                }
+
+                :hover {
+                    color: $color4;
+                }
+            }
+
+            .redes {
+                flex: 1;
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+
+                a {
+                    color: $color5;
+                    padding: 15px;
+                }
+
+                :hover {
+                    color: $color4;
+                }
+            }
+        }
+
+        /* ------------------------------------ . ----------------------------------- */
+        /* ---------------------------------- INDEX --------------------------------- */
+        /* ------------------------------------ . ----------------------------------- */
+
+        /* -------------------------------- NOTICIAS -------------------------------- */
+
+        // Cartel de NEWS
+        .news {
+            @include estructuraColCen;
+
+            h2 {
+                @include titulos;
+            }
+
+            ul {
+                list-style: none;
+                padding: 0;
+                margin: 0;
+            }
+        }
+
+        // Contenido de Noticia 1 (txt, img)
+        .new1 {
+            @include estructuraColCen;
+            flex-wrap: wrap;
+            width: 100%;
+
+            h3 {
+                @include subtitulos;
+                width: 100%;
+                text-align: center;
+                font-size: 2rem;
+            }
+
+            img {
+                @include imagenesL;
+            }
+
+            .adjuntoNota {
+                width: 90%;
+                @include encuadre;
+                font-family: $font4;
+                color: $color5;
+            }
+
+            p {
+                @include textoL;
+            }
+
+            a {
+                list-style: none;
+                text-decoration: none;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                font-size: 1.5rem;
+
+            }
+        }
+
+        // Contenido de Noticia 2 (txt, img)
+        .new2 {
+            @include estructuraColCen;
+            padding: 5px;
+
+            h3 {
+                @include subtitulos;
+            }
+
+            img {
+                @include imagenesL
+            }
+
+            a {
+                @include encuadre;
+                color: $color5;
+                padding: 5px;
+                font-size: 1.5rem;
+            }
+        }
+
+        /* ------------------------------------ . ----------------------------------- */
+        /* ------------------------------- INFORMACION ------------------------------ */
+        /* ------------------------------------ . ----------------------------------- */
+        .info {
+            @include estructuraColCen;
+
+            .mariqes {
+                @include estructuraColCen;
+                width: 100%;
+            }
+
+            .imagenesInfo1 {
+                @include estructuraColCen;
+                width: 100%;
+
+                img {
+                    @include imagenesL;
+                }
+
+                p {
+                    @include textoL;
+                }
+
+            }
+        }
+
+        .history {
+            @include estructuraColCen;
+            width: 100%;
+
+            img {
+                @include imagenesL;
+            }
+
+            p {
+                @include textoL;
+            }
+
+
+        }
+
+        .usos {
+            @include estructuraColCen;
+            width: 100%;
+
+            .imagenesInfo2 {
+                @include estructuraColCen;
+                width: 100%;
+
+                img {
+                    @include imagenesL;
+                }
+
+                p {
+                    @include textoL;
+                }
+
+            }
+        }
+
+        /* ------------------------------------ . ----------------------------------- */
+        /* --------------------------------- CULTIVO -------------------------------- */
+        /* ------------------------------------ . ----------------------------------- */
+
+        // Cultivo
+        .cultiv {
+            @include estructuraColCen;
+
+            h2 {
+                @include titulos;
+            }
+
+            img {
+                @include imagenesL;
+            }
+
+            p {
+                @include textoL;
+            }
+        }
+
+        // Exterior
+        .outdoor {
+            @include estructuraColCen;
+
+            h2 {
+                @include titulos;
+            }
+
+            img {
+                @include imagenesL;
+            }
+
+            p {
+                @include textoL;
+            }
+        }
+
+        // Interior
+        .indoor {
+            @include estructuraColCen;
+
+            h2 {
+                @include titulos;
+            }
+
+            img {
+                @include imagenesL;
+            }
+
+            p {
+                @include textoL;
+            }
+        }
+
+        // Hidroponico
+        .hidro {
+            @include estructuraColCen;
+
+            h2 {
+                @include titulos;
+            }
+
+            img {
+                @include imagenesL;
+            }
+
+            p {
+                @include textoL;
+            }
+        }
+         /* ------------------------------------ . ----------------------------------- */
+        /* ------------------------------- VARIEDADES ------------------------------- */
+        /* ------------------------------------ . ----------------------------------- */
+
+        /* ------------------------------ HALL OF FAME ------------------------------ */
+        .hall {
+            @include estructuraColCen;
+            width: 100%;
+
+            h2 {
+                @include titulos;
+            }
+
+            img {
+                @include imagenesL;
+            }
+
+            p {
+                @include textoL;
+            }
+
+            ol {
+                list-style: none;
+                @include estructuraColCen;
+                padding: 0;
+                margin: 0;
+                width: 100%;
+
+                li {
+                    color: $color3;
+                    font-family: $font3;
+                    font-size: 1.5rem;
+                    padding: 5px;
+                }
+            }
+        }
+
+        /* --------------------------------- TOPS 10 -------------------------------- */
+        .top10 {
+            @include estructuraColCen;
+            width: 100%;
+
+            h2 {
+                @include titulos;
+            }
+
+            img {
+                @include imagenesL;
+            }
+        }
+
+        // Top 10 sativas
+        .sativas10 {
+            @include estructuraColCen;
+            width: 100%;
+
+            img {
+                @include imagenesL;
+
+            }
+
+            h3 {
+                @include subtitulos;
+            }
+
+            ol {
+                list-style: none;
+                @include estructuraColCen;
+                padding: 0;
+                margin: 0;
+
+                li {
+                    color: $color3;
+                    font-family: $font3;
+                    font-size: 1.5rem;
+                    padding: 5px;
+                }
+            }
+        }
+
+        // Top 10 indicas
+        .indicas10 {
+            @include estructuraColCen;
+            width: 100%;
+
+            img {
+                @include imagenesL;
+            }
+
+            h3 {
+                @include subtitulos;
+            }
+
+            ol {
+                list-style: none;
+                @include estructuraColCen;
+                padding: 0;
+                margin: 0;
+
+                li {
+                    color: $color3;
+                    font-family: $font3;
+                    font-size: 1.5rem;
+                    padding: 5px;
+                }
+            }
+        }
+        /* ------------------------------------ . ----------------------------------- */
+        /* --------------------------------- E-Shop --------------------------------- */
+        /* ------------------------------------ . ----------------------------------- */
+        .eshop {
+            @include estructuraColCen;
+
+            ul {
+                list-style: none;
+                padding: 0px;
+                margin: 0px;
+                @include estructuraColCen;
+                width: 100%;
+            }
+
+            li {
+                font-family: $font3;
+                color: $color3;
+                font-size: 1.5rem;
+                text-align: center;
+            }
+
+            input {
+                background-color: $color5;
+                border-radius: 5px;
+                font-family: $font2;
+            }
+
+            // Semillas
+            .semillas {
+                display: flex;
+                margin-top: 10px;
+
+                h2 {
+                    @include titulos;
+                }
+
+                img {
+                    @include imagenes;
+                    width: 95%;
+                }
+            }
+
+            // Paraferalias
+            .parafernalias {
+                @include estructuraColCen;
+                margin-top: 10px;
+
+                h2 {
+                    @include titulos;
+                }
+
+                #Grinder {
+                    img {
+                        width: 95%;
+                    }
+                }
+
+                img {
+                    @include imagenes;
+                    width: 95%
+                }
+
+                .bongui {
+                    @include imagenes;
+                    width: 95%;
+                }
+            }
+
+            // Fertilizantes
+            .fertilizantes {
+                @include estructuraColCen;
+                margin-top: 10px;
+
+                h2 {
+                    @include titulos;
+                }
+
+                img {
+                    @include imagenes;
+                    width: 95%;
+                }
+            }
+
+            // Productos de CBD
+            .cbdProd {
+                @include estructuraColCen;
+                margin-top: 10px;
+
+                h2 {
+                    @include titulos;
+                }
+
+                h3 {
+                    @include subtitulos;
+                }
+
+                p {
+                    @include texto;
+                }
+
+                img {
+                    @include imagenes;
+                    width: 95%;
+                }
+            }
+        }
+
+    }
+}
