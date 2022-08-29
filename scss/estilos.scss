@@ -3,9 +3,11 @@
 @import "./mediamobile.scss";
 @import "./mediatablet.scss";
 @import "./medialaptop.scss";
+@import "./mediadesktop.scss";
 @include mediamobile;
 @include mediatablet;
 @include medialaptop;
+@include mediadesktop;
 
 * {
     border: 0px;
