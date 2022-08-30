@@ -660,6 +660,7 @@
 
                 p {
                     @include encuadre;
+                    @include texto;
                     width: 98%;
                 }
             }

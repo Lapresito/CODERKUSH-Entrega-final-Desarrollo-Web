@@ -618,6 +618,10 @@
         background-color: #124735ce;
         border: solid 3px #126f3c;
         border-radius: 5px;
+        font-family: "Sanchez", serif;
+        color: #c3e24c;
+        background-color: #12473577;
+        border-radius: 5px;
         width: 98%; }
     .datosMapa .mapa {
       border: 5px solid transparent;
@@ -1541,6 +1545,10 @@
       .datosMapa .datos p {
         background-color: #124735ce;
         border: solid 3px #126f3c;
+        border-radius: 5px;
+        font-family: "Sanchez", serif;
+        color: #c3e24c;
+        background-color: #12473577;
         border-radius: 5px;
         width: 98%; }
     .datosMapa .mapa {
