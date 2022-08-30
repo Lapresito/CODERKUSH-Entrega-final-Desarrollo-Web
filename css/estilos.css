@@ -1882,8 +1882,12 @@
         align-items: center; }
         .header .headerNormal .tituloBotonInicioSesion .titulopag {
           margin: 20px 0px 20px 20px; }
+          .header .headerNormal .tituloBotonInicioSesion .titulopag :hover {
+            text-shadow: 1px 1px #6fa74c, -1px -1px #333; }
           .header .headerNormal .tituloBotonInicioSesion .titulopag h1 {
             font-size: 3.5rem; }
+        .header .headerNormal .tituloBotonInicioSesion .inicioSesionBoton :hover {
+          transform: scale(1.1); }
         .header .headerNormal .tituloBotonInicioSesion .inicioSesionBoton a {
           margin: 0px 20px 0px 0px; }
           .header .headerNormal .tituloBotonInicioSesion .inicioSesionBoton a h3 {
@@ -1904,7 +1908,8 @@
               padding: 20px;
               font-size: 1.5rem; }
             .header .headerNormal .barra .nav li :hover {
-              color: #6fa74c; }
+              text-shadow: -1px 0 #c3e24c, 1px 0 #c3e24c, 0 1px #c3e24c, 0 -1px #c3e24c;
+              color: #126f3c; }
   /* ------------------------------------ . ----------------------------------- */
   /* --------------------------------- FOOTER --------------------------------- */
   /* ------------------------------------ . ----------------------------------- */
@@ -1923,6 +1928,8 @@
       .footer .contactoFooter a {
         color: #c3e24c;
         padding: 15px; }
+        .footer .contactoFooter a :hover {
+          transform: scale(1.4); }
       .footer .contactoFooter :hover {
         color: #6fa74c; }
     .footer .subir {
@@ -1932,6 +1939,8 @@
       align-items: center; }
       .footer .subir a {
         color: #c3e24c; }
+        .footer .subir a :hover {
+          transform: scale(1.4); }
       .footer .subir :hover {
         color: #6fa74c; }
     .footer .redes {
@@ -1942,6 +1951,8 @@
       .footer .redes a {
         color: #c3e24c;
         padding: 15px; }
+        .footer .redes a :hover {
+          transform: scale(1.4); }
       .footer .redes :hover {
         color: #6fa74c; }
   /* ------------------------------------ . ----------------------------------- */
@@ -2006,6 +2017,8 @@
       align-items: center;
       text-align: center;
       font-size: 1.5rem; }
+      .new1 a :hover {
+        transform: scale(1.2); }
   .new2 {
     display: flex;
     flex-direction: column;
@@ -2029,6 +2042,8 @@
       color: #c3e24c;
       padding: 5px;
       font-size: 1.5rem; }
+      .new2 a :hover {
+        transform: scale(1.2); }
   /* ------------------------------------ . ----------------------------------- */
   /* ------------------------------- INFORMACION ------------------------------ */
   /* ------------------------------------ . ----------------------------------- */
@@ -2751,7 +2766,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center; }
+    align-items: center;
+    padding: 20px; }
     .creaUsuarioCK h2 {
       text-align: center;
       font-family: "Sanchez", serif;
@@ -2919,8 +2935,12 @@
         align-items: center; }
         .header .headerNormal .tituloBotonInicioSesion .titulopag {
           margin: 20px 0px 20px 20px; }
+          .header .headerNormal .tituloBotonInicioSesion .titulopag :hover {
+            text-shadow: 1px 1px #6fa74c, -1px -1px #333; }
           .header .headerNormal .tituloBotonInicioSesion .titulopag h1 {
-            font-size: 3.5rem; }
+            font-size: 4rem; }
+        .header .headerNormal .tituloBotonInicioSesion .inicioSesionBoton :hover {
+          transform: scale(1.1); }
         .header .headerNormal .tituloBotonInicioSesion .inicioSesionBoton a {
           margin: 0px 20px 0px 0px; }
           .header .headerNormal .tituloBotonInicioSesion .inicioSesionBoton a h3 {
@@ -2941,7 +2961,8 @@
               padding: 20px;
               font-size: 1.5rem; }
             .header .headerNormal .barra .nav li :hover {
-              color: #6fa74c; }
+              text-shadow: -1px 0 #c3e24c, 1px 0 #c3e24c, 0 1px #c3e24c, 0 -1px #c3e24c;
+              color: #126f3c; }
   /* ------------------------------------ . ----------------------------------- */
   /* --------------------------------- FOOTER --------------------------------- */
   /* ------------------------------------ . ----------------------------------- */
@@ -2960,6 +2981,8 @@
       .footer .contactoFooter a {
         color: #c3e24c;
         padding: 15px; }
+        .footer .contactoFooter a :hover {
+          transform: scale(1.4); }
       .footer .contactoFooter :hover {
         color: #6fa74c; }
     .footer .subir {
@@ -2969,6 +2992,8 @@
       align-items: center; }
       .footer .subir a {
         color: #c3e24c; }
+        .footer .subir a :hover {
+          transform: scale(1.4); }
       .footer .subir :hover {
         color: #6fa74c; }
     .footer .redes {
@@ -2979,6 +3004,8 @@
       .footer .redes a {
         color: #c3e24c;
         padding: 15px; }
+        .footer .redes a :hover {
+          transform: scale(1.4); }
       .footer .redes :hover {
         color: #6fa74c; }
   /* ------------------------------------ . ----------------------------------- */
@@ -3043,6 +3070,8 @@
       align-items: center;
       text-align: center;
       font-size: 1.5rem; }
+      .new1 a :hover {
+        transform: scale(1.2); }
   .new2 {
     display: flex;
     flex-direction: column;
@@ -3066,6 +3095,8 @@
       color: #c3e24c;
       padding: 5px;
       font-size: 1.5rem; }
+      .new2 a :hover {
+        transform: scale(1.2); }
   /* ------------------------------------ . ----------------------------------- */
   /* ------------------------------- INFORMACION ------------------------------ */
   /* ------------------------------------ . ----------------------------------- */
@@ -3793,7 +3824,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center; }
+    align-items: center;
+    padding: 20px; }
     .creaUsuarioCK h2 {
       text-align: center;
       font-family: "Sanchez", serif;

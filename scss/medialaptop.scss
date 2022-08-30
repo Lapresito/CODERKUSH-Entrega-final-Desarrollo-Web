@@ -30,13 +30,20 @@
 
                     .titulopag {
                         margin: 20px 0px 20px 20px;
+                        :hover{
+                            text-shadow: 1px 1px $color4, -1px -1px #333;
+                        }
 
                         h1 {
                             font-size: 3.5rem;
+                           
                         }
                     }
 
                     .inicioSesionBoton {
+                        :hover{
+                            transform: scale(1.1);
+                        }
                         a {
                             margin: 0px 20px 0px 0px;
 
@@ -70,7 +77,8 @@
                             }
 
                             :hover {
-                                color: $color4;
+                                text-shadow: -1px 0 $color5, 1px 0 $color5, 0 1px $color5, 0 -1px $color5;
+                                color: $color3;
                             }
                         }
                     }
@@ -99,6 +107,9 @@
                 a {
                     color: $color5;
                     padding: 15px;
+                    :hover{
+                        transform: scale(1.4);
+                    }
                 }
 
                 :hover {
@@ -115,6 +126,9 @@
 
                 a {
                     color: $color5;
+                    :hover{
+                        transform: scale(1.4);
+                    }
                 }
 
                 :hover {
@@ -131,6 +145,9 @@
                 a {
                     color: $color5;
                     padding: 15px;
+                    :hover{
+                        transform: scale(1.4);
+                    }
                 }
 
                 :hover {
@@ -196,6 +213,9 @@
                 align-items: center;
                 text-align: center;
                 font-size: 1.5rem;
+                :hover {
+                    transform: scale(1.2);
+                }
 
             }
         }
@@ -218,6 +238,9 @@
                 color: $color5;
                 padding: 5px;
                 font-size: 1.5rem;
+                :hover {
+                    transform: scale(1.2);
+                }
             }
         }
 
@@ -862,6 +885,7 @@
 
         .creaUsuarioCK {
             @include estructuraColCen;
+            padding: 20px;
 
             h2 {
                 @include subtitulos;
@@ -880,6 +904,7 @@
                 @include estructuraColCen;
                 @include encuadre;
                 width: 90%;
+
 
                 form {
                     width: 100%;
