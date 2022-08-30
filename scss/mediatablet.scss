@@ -437,6 +437,7 @@
                 li {
                     color: $color3;
                     font-family: $font3;
+                    text-shadow: 0.05em 0.05em $color5;
                 }
             }
         }
@@ -480,6 +481,7 @@
                 li {
                     color: $color3;
                     font-family: $font3;
+                    text-shadow: 0.05em 0.05em $color5;
                 }
             }
         }
@@ -508,6 +510,7 @@
                 li {
                     color: $color3;
                     font-family: $font3;
+                    text-shadow: 0.05em 0.05em $color5;
                 }
             }
         }
@@ -531,6 +534,11 @@
                 color: $color3;
                 font-size: 1.5rem;
                 text-align: center;
+                text-shadow: 0.05em 0.05em $color5;
+                :hover{
+                    background-color: $color4;
+                }
+
             }
 
             input {
@@ -767,7 +775,7 @@
 
         .pagInicioSes {
             @include estructuraColCen;
-
+            padding: 10px;
             img {
                 @include imagenes;
                 width: 50%;
@@ -818,6 +826,9 @@
             @include estructuraColCen;
 
             h2 {
+                @include subtitulos;
+            }
+            h4{
                 @include subtitulos;
             }
 

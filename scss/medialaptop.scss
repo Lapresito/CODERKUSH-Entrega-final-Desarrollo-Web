@@ -386,6 +386,7 @@
                     font-family: $font3;
                     font-size: 1.5rem;
                     padding: 5px;
+                    text-shadow: 0.05em 0.05em $color5;
                 }
             }
         }
@@ -429,6 +430,7 @@
                     font-family: $font3;
                     font-size: 1.5rem;
                     padding: 5px;
+                    text-shadow: 0.05em 0.05em $color5;
                 }
             }
         }
@@ -457,6 +459,7 @@
                     font-family: $font3;
                     font-size: 1.5rem;
                     padding: 5px;
+                    text-shadow: 0.05em 0.05em $color5;
                 }
             }
         }
@@ -514,6 +517,10 @@
                         li {
                             @include estructuraColCen;
                             padding: 20px;
+                            text-shadow: 0.05em 0.05em $color5;
+                            :hover{
+                                background-color: $color4;
+                            }
 
                             .imgsem {
                                 width: 300px;
@@ -549,6 +556,11 @@
                         li {
                             @include estructuraColCen;
                             padding: 20px;
+                            text-shadow: 0.05em 0.05em $color5;
+                            :hover{
+                                background-color: $color4;
+                            }
+
 
                             .imgpar {
                                 width: 300px;
@@ -584,6 +596,11 @@
                         li {
                             @include estructuraColCen;
                             padding: 20px;
+                            text-shadow: 0.05em 0.05em $color5;
+                            :hover{
+                                background-color: $color4;
+                            }
+
 
                             .imgfer {
                                 width: 300px;
@@ -623,6 +640,11 @@
                         li {
                             @include estructuraColCen;
                             padding: 20px;
+                            text-shadow: 0.05em 0.05em $color5;
+                            :hover{
+                                background-color: $color4;
+                            }
+
 
                             .imgcbd {
                                 width: 300px;
@@ -787,6 +809,7 @@
 
         .pagInicioSes {
             @include estructuraColCen;
+            padding: 20px;
 
             img {
                 @include imagenes;

@@ -1,5 +1,5 @@
 @mixin mediadesktop {
-    @media (min-width: 1280px){
+    @media (min-width: 1280px) {
         .body {
             min-width: 1280px;
             max-width: 2000px;
@@ -386,6 +386,7 @@
                     font-family: $font3;
                     font-size: 1.5rem;
                     padding: 5px;
+                    text-shadow: 0.05em 0.05em $color5;
                 }
             }
         }
@@ -429,6 +430,7 @@
                     font-family: $font3;
                     font-size: 1.5rem;
                     padding: 5px;
+                    text-shadow: 0.05em 0.05em $color5;
                 }
             }
         }
@@ -457,6 +459,7 @@
                     font-family: $font3;
                     font-size: 1.5rem;
                     padding: 5px;
+                    text-shadow: 0.05em 0.05em $color5;
                 }
             }
         }
@@ -514,6 +517,12 @@
                         li {
                             @include estructuraColCen;
                             padding: 20px;
+                            text-shadow: 0.05em 0.05em $color5;
+
+                            :hover {
+                                background-color: $color4;
+                            }
+
 
                             .imgsem {
                                 width: 300px;
@@ -549,6 +558,12 @@
                         li {
                             @include estructuraColCen;
                             padding: 20px;
+                            text-shadow: 0.05em 0.05em $color5;
+
+                            :hover {
+                                background-color: $color4;
+                            }
+
 
                             .imgpar {
                                 width: 300px;
@@ -584,6 +599,12 @@
                         li {
                             @include estructuraColCen;
                             padding: 20px;
+                            text-shadow: 0.05em 0.05em $color5;
+
+                            :hover {
+                                background-color: $color4;
+                            }
+
 
                             .imgfer {
                                 width: 300px;
@@ -623,6 +644,12 @@
                         li {
                             @include estructuraColCen;
                             padding: 20px;
+                            text-shadow: 0.05em 0.05em $color5;
+
+                            :hover {
+                                background-color: $color4;
+                            }
+
 
                             .imgcbd {
                                 width: 300px;
@@ -663,7 +690,7 @@
                 justify-content: space-around;
                 align-items: center;
                 width: 98%;
-                
+
 
                 h3 {
                     @include subtitulos;
@@ -781,12 +808,14 @@
                 }
             }
         }
+
         /* ------------------------------------ . ----------------------------------- */
         /* ----------------------------- INICIAR SESION ----------------------------- */
         /* ------------------------------------ . ----------------------------------- */
 
         .pagInicioSes {
             @include estructuraColCen;
+            padding: 20px;
 
             img {
                 @include imagenes;
@@ -822,10 +851,17 @@
                     @include subtitulos;
                 }
 
-                h4 {
-                    font-family: $font2;
-                    font-size: 2rem;
-                    color: $color4;
+                a {
+                    text-decoration: none;
+                    h4 {
+                        font-family: $font2;
+                        font-size: 2rem;
+                        color: $color4;
+                        :hover{
+                            font-size: 2.2rem;
+                            color: $color5;
+                        }
+                    }
                 }
 
                 h4 :hover {
@@ -833,6 +869,7 @@
                 }
             }
         }
+
         /* ------------------------------------ . ----------------------------------- */
         /* ------------------------------ CREAR SESION ------------------------------ */
         /* ------------------------------------ . ----------------------------------- */
@@ -849,7 +886,8 @@
                 width: 90%;
                 padding: 5px;
             }
-            h4{
+
+            h4 {
                 @include subtitulos;
             }
 
